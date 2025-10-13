@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "NCP189CMTW330TAG")(type "KiCad")(uri "${KIPRJMOD}/NCP189CMTW330TAG/KiCad/NCP189CMTW330TAG.kicad_sym")(options "")(descr ""))
+)
