@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MMC5603NJ'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "MEMSIC", "MMC5603NJ" (!) = "", "MMC5603NJ", "Other", "438-MMC5603NJ", "https://www.mouser.co.uk/ProductDetail/MEMSIC/MMC5603NJ?qs=B6kkDfuK7%2FDOubZFFHvcXw%3D%3D", "Magnetic Sensors SMD RoHS", "https://www.mouser.de/datasheet/2/821/Memsic_09102019_MMC5603NJ_Datasheet_Rev.B-1635324.pdf", "0.6 mm"
+END_PART
+
+END.

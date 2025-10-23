@@ -1,0 +1,9 @@
+Manufacturer=BOSCH
+PartNumber=BMP581
+PartCategory=Undefined or Miscellaneous
+PackageCategory=Other
+PinCount=10
+Version=1.2
+Released=2023-01-03 05:19:29
+Downloaded=2025-10-23 18:02:41
+3D=Y

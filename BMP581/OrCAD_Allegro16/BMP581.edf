@@ -1,0 +1,176 @@
+
+(EDIF
+  (rename &BMP581 "BMP581")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2025 10 23 18 02 41)
+      (dataOrigin "16103420/1794276/2.50/10/3/Undefined or Miscellaneous")
+      (program "SamacSys ECAD Model BMP581"
+        (version "1.2"))))
+  (library
+  (rename &BMP581 "BMP581")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition (scale 1 (e 254 -6) (unit DISTANCE)))
+      (userData GRIDRESOLUTION (integer 50 50))
+      (figureGroup DEFAULT (pathWidth 10) (textHeight 100))
+      (figureGroup PROPERTY (pathWidth 10) (textHeight 90))
+      (figureGroup PINNUMBER (pathWidth 10) (textHeight 90))
+      (figureGroup PINNAME (pathWidth 10) (textHeight 90))
+      (figureGroup COMMENT (pathWidth 10) (textHeight 90))
+      (figureGroup PIN (pathWidth 10) (textHeight 90))
+      (figureGroup GRAPHIC (pathWidth 10) (textHeight 100))
+    )
+    (cell
+      (rename &BMP581 "BMP581")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "U")
+          (property (rename PACKAGENAME "PackageName") (string "BMP581"))
+          (property (rename ISHETEROGENEOUS "IsHeterogeneous") (string "False"))
+          (property (rename DEVICESINVIEW "DevicesInView") (string "1"))
+          (property (rename DEVICESINPACKAGE "DevicesInPackage") (string "1"))
+          (property (rename DEVICEDESIGNATOR "DeviceDesignator") (string "A"))
+          (property (rename DEVICENUMBERING "DeviceNumbering") (string "Alpha"))
+          (property (rename PCB_32_FOOTPRINT "PCB Footprint") (string "BMP581"))
+          (property (rename &Mouser_Part_Number "Mouser Part Number") (string "262-BMP581"))
+          (property (rename &Mouser_Price_Stock "Mouser Price/Stock") (string "https://www.mouser.co.uk/ProductDetail/Bosch-Sensortec/BMP581?qs=Li%252BoUPsLEntPL9tlFmcgXg%3D%3D"))
+          (property (rename &Manufacturer_Name "Manufacturer_Name") (string "BOSCH"))
+          (property (rename &Manufacturer_Part_Number "Manufacturer_Part_Number") (string "BMP581"))
+          (property (rename &Description "Description") (string "Pressure Sensor 4.35PSI ~ 18.13PSI (30kPa ~ 125kPa) Absolute 10-WFLGA"))
+          (property (rename &Datasheet_Link "Datasheet Link") (string "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmp581-ds004.pdf"))
+          (property (rename &Height "Height") (string "0.8 mm"))
+          (property (rename &_60__32_VALUE_32__62_ "Value") (string "BMP581"))
+          (property (rename VALUE "Value") (string "Value"))
+          (port
+            (rename &VDDIO "VDDIO")
+            (designator "1")
+            (property (rename ORDER "Order") (string "0") (owner "OrCAD"))
+          )
+          (port
+            (rename &SCK "SCK")
+            (designator "2")
+            (property (rename ORDER "Order") (string "1") (owner "OrCAD"))
+          )
+          (port
+            (rename &VSS_1 "VSS_1")
+            (designator "3")
+            (property (rename ORDER "Order") (string "2") (owner "OrCAD"))
+          )
+          (port
+            (rename &SDI "SDI")
+            (designator "4")
+            (property (rename ORDER "Order") (string "3") (owner "OrCAD"))
+          )
+          (port
+            (rename &SDO "SDO")
+            (designator "5")
+            (property (rename ORDER "Order") (string "4") (owner "OrCAD"))
+          )
+          (port
+            (rename &CSB "CSB")
+            (designator "6")
+            (property (rename ORDER "Order") (string "5") (owner "OrCAD"))
+          )
+          (port
+            (rename &INT "INT")
+            (designator "7")
+            (property (rename ORDER "Order") (string "6") (owner "OrCAD"))
+          )
+          (port
+            (rename &VSS_2 "VSS_2")
+            (designator "8")
+            (property (rename ORDER "Order") (string "7") (owner "OrCAD"))
+          )
+          (port
+            (rename &VSS_3 "VSS_3")
+            (designator "9")
+            (property (rename ORDER "Order") (string "8") (owner "OrCAD"))
+          )
+          (port
+            (rename &VDD "VDD")
+            (designator "10")
+            (property (rename ORDER "Order") (string "9") (owner "OrCAD"))
+          )
+          (symbol
+            (portImplementation
+              (name &VDDIO (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -500) (pt 0 -500))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -500))))
+            )
+            (portImplementation
+              (name &SCK (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -600) (pt 0 -600))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -600))))
+            )
+            (portImplementation
+              (name &VSS_1 (display PINNAME))
+              (figure PIN (path (pointList (pt 300 -1300) (pt 300 -1100))))
+              (connectLocation (figure GRAPHIC (dot (pt 300 -1300))))
+            )
+            (portImplementation
+              (name &SDI (display PINNAME))
+              (figure PIN (path (pointList (pt 400 -1300) (pt 400 -1100))))
+              (connectLocation (figure GRAPHIC (dot (pt 400 -1300))))
+            )
+            (portImplementation
+              (name &SDO (display PINNAME))
+              (figure PIN (path (pointList (pt 500 -1300) (pt 500 -1100))))
+              (connectLocation (figure GRAPHIC (dot (pt 500 -1300))))
+            )
+            (portImplementation
+              (name &CSB (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 800 -600) (pt 1000 -600))))
+              (connectLocation (figure GRAPHIC (dot (pt 1000 -600))))
+            )
+            (portImplementation
+              (name &INT (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 800 -500) (pt 1000 -500))))
+              (connectLocation (figure GRAPHIC (dot (pt 1000 -500))))
+            )
+            (portImplementation
+              (name &VSS_2 (display PINNAME))
+              (figure PIN (path (pointList (pt 500 200) (pt 500 0))))
+              (connectLocation (figure GRAPHIC (dot (pt 500 200))))
+            )
+            (portImplementation
+              (name &VSS_3 (display PINNAME))
+              (figure PIN (path (pointList (pt 400 200) (pt 400 0))))
+              (connectLocation (figure GRAPHIC (dot (pt 400 200))))
+            )
+            (portImplementation
+              (name &VDD (display PINNAME))
+              (figure PIN (path (pointList (pt 300 200) (pt 300 0))))
+              (connectLocation (figure GRAPHIC (dot (pt 300 200))))
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 0 0)
+                  (pt 800 0)
+                  (pt 800 -1100)
+                  (pt 0 -1100)
+                  (pt 0 0)
+                )
+              )
+            )
+            (keywordDisplay DESIGNATOR (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 850 130))))
+            (propertyDisplay &_60__32_VALUE_32__62_ (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 850 30))))
+          )
+        )
+      )
+    )
+  )
+)

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'ICM_42670_P'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "TDK", "ICM-42670-P" (!) = "", "ICM42670P", "Other", "410-ICM-42670-P", "https://www.mouser.co.uk/ProductDetail/TDK-InvenSense/ICM-42670-P?qs=iLbezkQI%252BsgK8sMF5V7fQQ%3D%3D", "IMUs - Inertial Measurement Units Low-Power, Premium Performance 6-Axis MotionTrackingTM IMU with I3C, I2C and SPI interface in 2.5mm x 3mm Package", "https://3cfeqx1hf82y3xcoull08ihx-wpengine.netdna-ssl.com/wp-content/uploads/2021/07/DS-000451-ICM-42670-P-v1.0.pdf"
+END_PART
+
+END.

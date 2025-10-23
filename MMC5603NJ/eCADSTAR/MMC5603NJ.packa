@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "MMC5603NJ"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-10-14-16:45:56)
+    (mountForm default
+        (footprintRef "MMC5603NJ")
+        (spec "System")
+    )
+)

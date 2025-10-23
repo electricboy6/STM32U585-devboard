@@ -1,0 +1,9 @@
+Manufacturer=MEMSIC
+PartNumber=MMC5603NJ
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=4
+Version=1.5
+Released=2019-10-14 16:45:56
+Downloaded=2025-10-23 18:02:32
+3D=Y
