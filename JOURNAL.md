@@ -42,3 +42,10 @@ Git was going absolutely crazy while I was doing it (I've actually never used cl
 ![gitgoingcrazy.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NDg5MCwicHVyIjoiYmxvYl9pZCJ9fQ==--b148403d27289c01891749093da21876a78473e1/gitgoingcrazy.png)
   
 
+## 10/23/2025 9 PM - Spent way too much time trying to figure things out  
+
+I've been working on the mosfet control for the pyro channels, and I spent like 1-1.5 hours trying to figure out how to do it. Thanks to scooter y for actually helping me figure it out, and I also worked on part selection a bit. I had originally planned the project for being just a devboard, but I realized I would run out of time to make the actual flight computer if I didn't just do it now. Because of that, some of my original parts (ldo especially) won't work, and I need to pick new ones.
+Here's the new mosfet schematics:
+![mosfets.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NDk1MSwicHVyIjoiYmxvYl9pZCJ9fQ==--5fde6f1260f21c6d04f90d8825a0860457048932/mosfets.png)
+  
+
