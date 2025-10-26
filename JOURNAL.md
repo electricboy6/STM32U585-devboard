@@ -42,3 +42,31 @@ Git was going absolutely crazy while I was doing it (I've actually never used cl
 ![gitgoingcrazy.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NDg5MCwicHVyIjoiYmxvYl9pZCJ9fQ==--b148403d27289c01891749093da21876a78473e1/gitgoingcrazy.png)
   
 
+## 10/23/2025 9 PM - Spent way too much time trying to figure things out  
+
+I've been working on the mosfet control for the pyro channels, and I spent like 1-1.5 hours trying to figure out how to do it. Thanks to scooter y for actually helping me figure it out, and I also worked on part selection a bit. I had originally planned the project for being just a devboard, but I realized I would run out of time to make the actual flight computer if I didn't just do it now. Because of that, some of my original parts (ldo especially) won't work, and I need to pick new ones.
+Here's the new mosfet schematics:
+![mosfets.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NDk1MSwicHVyIjoiYmxvYl9pZCJ9fQ==--5fde6f1260f21c6d04f90d8825a0860457048932/mosfets.png)
+  
+
+## 10/26/2025 - Switched regulators, researched crystals and rf, organized  
+
+Since I switched to just making the flight computer, the original ldo wasn't going to work (not a high enough max voltage input), so I switched to a switching power supply (mpm3610).
+
+![newregulator.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTcwOSwicHVyIjoiYmxvYl9pZCJ9fQ==--a99760a4d11d7d6de69536486b96f5bcbb93df3a/newregulator.png)
+
+I also worked on researching which crystals I'm going to need to use (4mHz and 32.768kHz, figuring out the actual part on mouser), as well as the rf chip. I think I'm probably going to wait on the rf chip and just do that on a separate board (I don't want to mess with rf black magic, and the lr2021 isn't even released yet).
+
+Finally, I reorganized the schematic so each major part was on its own sheet, since my main sheet was getting really crowded.
+
+Main sheet
+![mainsheet.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTcxMCwicHVyIjoiYmxvYl9pZCJ9fQ==--8f9ed83a1fae7ba9c717f82b99f32efac0fbe9c3/mainsheet.png)
+
+Mosfet sheet
+![mosfetsheet.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTcxMSwicHVyIjoiYmxvYl9pZCJ9fQ==--9378095f304f818a50ab321f787a7f28a44835d0/mosfetsheet.png)
+
+Sensors sheet
+![sensorssheet.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTcxMiwicHVyIjoiYmxvYl9pZCJ9fQ==--b3c693eac7d9cfc5802dd8cf730fb7e28beb4545/sensorssheet.png)
+
+  
+
