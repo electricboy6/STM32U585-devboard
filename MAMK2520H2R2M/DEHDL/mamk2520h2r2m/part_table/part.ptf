@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MAMK2520H2R2M'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "TAIYO YUDEN", "MAMK2520H2R2M" (!) = "", "INDC2520X120N", "Inductors Chip", "963-MAMK2520H2R2M", "https://www.mouser.co.uk/ProductDetail/TAIYO-YUDEN/MAMK2520H2R2M?qs=4JX4e57RtWy63Hw12ZxQ0w%3D%3D", "Fixed Inductors 1008 2.2uH 90mOhms +/-20%Tol 2.2A HiCur", "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=MAMK2520H2R2M &u=M", "1.2 mm"
+END_PART
+
+END.

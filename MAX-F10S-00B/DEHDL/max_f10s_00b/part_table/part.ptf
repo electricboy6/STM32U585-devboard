@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MAX_F10S_00B'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "u-blox", "MAX-F10S-00B" (!) = "", "MAXF10S00B", "Other", "377-MAX-F10S-00B", "https://www.mouser.co.uk/ProductDetail/u-blox/MAX-F10S-00B?qs=By6Nw2ByBD2CW%252Biwf2Kjow%3D%3D", "GNSS / GPS Modules L1/L5 dual-band GNSS receiver for meter-level accuracy in urban environments", "https://www.mouser.ph/ProductDetail/u-blox/MAX-F10S-00B?qs=By6Nw2ByBD2CW%252Biwf2Kjow%3D%3D", "2.7 mm"
+END_PART
+
+END.

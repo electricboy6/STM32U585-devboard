@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MPM3610GQV_Z'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Monolithic Power Systems (MPS)", "MPM3610GQV-Z" (!) = "", "MPM3606GQVZ", "Other", "946-MPM3610GQV-Z", "https://www.mouser.co.uk/ProductDetail/Monolithic-Power-Systems-MPS/MPM3610GQV-Z?qs=uA8e7uFv8Fg%252B11Jn2RQvtw%3D%3D", "Power Management Modules 24V/1A DC/DC Mini- Module Reg w Inductr", "https://www.monolithicpower.com/pub/media/document/MPM3610_r1.01.pdf", "1.65 mm"
+END_PART
+
+END.

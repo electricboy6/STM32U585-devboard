@@ -1,9 +1,0 @@
-Manufacturer=onsemi
-PartNumber=NCP189CMTW330TAG
-PartCategory=Integrated Circuit
-PackageCategory=Small Outline No-lead
-PinCount=7
-Version=3.1
-Released=2022-11-11 06:34:56
-Downloaded=2025-10-13 21:41:06
-3D=Y

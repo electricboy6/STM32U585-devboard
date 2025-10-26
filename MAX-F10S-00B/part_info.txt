@@ -1,0 +1,9 @@
+Manufacturer=u-blox
+PartNumber=MAX-F10S-00B
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=18
+Version=1.4
+Released=2024-11-11 08:37:37
+Downloaded=2025-10-26 14:43:24
+3D=Y

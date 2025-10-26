@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MAMK2520H2R2M
+D Fixed Inductors 1008 2.2uH 90mOhms +/-20%Tol 2.2A HiCur
+K
+F https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=MAMK2520H2R2M &u=M
+$ENDCMP
+#
+#End Doc Library

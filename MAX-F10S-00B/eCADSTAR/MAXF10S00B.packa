@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "MAX-F10S-00B"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2024-11-11-08:37:37)
+    (mountForm default
+        (footprintRef "MAXF10S00B")
+        (spec "System")
+    )
+)

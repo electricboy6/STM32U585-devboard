@@ -1,0 +1,16 @@
+.MPM3610GQV-Z :1 ;Power Management Modules 24V/1A DC/DC Mini- Module Reg w Inductr
+MPM3606GQVZ
+*STM IC
+*NGS
+*PLB 1="FB" 2="VCC" 3="AGND" 4="SW_1" 5="SW_2" 6="SW_3" 7="OUT_1" 8="OUT_2" 9="OUT_3" 10="NC_1" 11="BST" 12="PGND_1" 13="PGND_2" 14="PGND_3" 15="NC_2" 16="IN" 17="EN" 18="AAM" 19="SW_4" 20="OUT_4"
+*MXP 20
+*DFN MPM3610GQV-Z
+~!Mouser Part Number (946-MPM3610GQV-Z)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Monolithic-Power-Systems-MPS/MPM3610GQV-Z?qs=uA8e7uFv8Fg%252B11Jn2RQvtw%3D%3D)
+~!Manufacturer_Name (Monolithic Power Systems (MPS))
+~!Manufacturer_Part_Number (MPM3610GQV-Z)
+~!Link Datasheet (https://www.monolithicpower.com/pub/media/document/MPM3610_r1.01.pdf)
+~!Height (1.65mm)
+~!3D_Model (MPM3610GQV-Z)
+MPM3610GQV-Z
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 15.1!U 16.1!U 17.1!U 18.1!U 19.1!U 20.1!U 

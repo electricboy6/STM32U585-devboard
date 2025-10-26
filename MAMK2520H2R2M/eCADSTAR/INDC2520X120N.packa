@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "MAMK2520H2R2M"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-03-03-02:52:17)
+    (mountForm default
+        (footprintRef "INDC2520X120N")
+        (spec "System")
+    )
+)

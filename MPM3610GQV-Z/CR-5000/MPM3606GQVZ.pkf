@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "MPM3606GQVZ"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "MPM3606GQVZ")
+        (spec "default")
+    )
+)

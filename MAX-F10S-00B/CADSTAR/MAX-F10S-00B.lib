@@ -1,0 +1,16 @@
+.MAX-F10S-00B :1 ;GNSS / GPS Modules L1/L5 dual-band GNSS receiver for meter-level accuracy in urban environments
+MAXF10S00B
+*STM IC
+*NGS
+*PLB 1="GND_1" 2="TXD" 3="RXD" 4="TIMEPULSE" 5="EXTINT" 6="V_BCKP" 7="V_IO" 8="VCC" 9="RESET_N" 10="GND_2" 11="RF_IN" 12="GND_3" 13="LNA_EN" 14="VCC_RF" 15="VIO_SEL" 16="SDA" 17="SCL" 18="SAFEBOOT_N"
+*MXP 18
+*DFN MAX-F10S-00B
+~!Mouser Part Number (377-MAX-F10S-00B)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/u-blox/MAX-F10S-00B?qs=By6Nw2ByBD2CW%252Biwf2Kjow%3D%3D)
+~!Manufacturer_Name (u-blox)
+~!Manufacturer_Part_Number (MAX-F10S-00B)
+~!Link Datasheet (https://www.mouser.ph/ProductDetail/u-blox/MAX-F10S-00B?qs=By6Nw2ByBD2CW%252Biwf2Kjow%3D%3D)
+~!Height (2.7mm)
+~!3D_Model (MAX-F10S-00B)
+MAX-F10S-00B
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 15.1!U 16.1!U 17.1!U 18.1!U 

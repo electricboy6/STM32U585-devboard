@@ -1,0 +1,9 @@
+Manufacturer=TAIYO YUDEN
+PartNumber=MAMK2520H2R2M
+PartCategory=Inductor
+PackageCategory=Inductors Chip
+PinCount=2
+Version=1.1
+Released=2020-03-03 02:52:17
+Downloaded=2025-10-26 17:00:22
+3D=Y

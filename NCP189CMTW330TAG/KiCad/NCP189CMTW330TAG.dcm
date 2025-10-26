@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP NCP189CMTW330TAG
-D 1.6V to 5.5V input voltage; Output voltage from 0.6V; Controlled output voltage slew rate; PSRR: 85 dB at 1 kHz; Low dropout 65mV ar 3.3V / 500mA; Ultra-Low Noise: 10VRMS; WDFNW6 2 x 2mm
-K
-F https://www.onsemi.com/pub/Collateral/NCP189-D.PDF
-$ENDCMP
-#
-#End Doc Library
