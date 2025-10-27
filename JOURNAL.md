@@ -49,7 +49,7 @@ Here's the new mosfet schematics:
 ![mosfets.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NDk1MSwicHVyIjoiYmxvYl9pZCJ9fQ==--5fde6f1260f21c6d04f90d8825a0860457048932/mosfets.png)
   
 
-## 10/26/2025 - Switched regulators, researched crystals and rf, organized  
+## 10/26/2025 9 AM - Switched regulators, researched crystals and rf, organized  
 
 Since I switched to just making the flight computer, the original ldo wasn't going to work (not a high enough max voltage input), so I switched to a switching power supply (mpm3610).
 
@@ -68,5 +68,18 @@ Mosfet sheet
 Sensors sheet
 ![sensorssheet.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTcxMiwicHVyIjoiYmxvYl9pZCJ9fQ==--b3c693eac7d9cfc5802dd8cf730fb7e28beb4545/sensorssheet.png)
 
+  
+
+## 10/26/2025 8 PM - Holy crap hardware is hard - worked on schem and pcb  
+
+I got the schematic all the way done (for now at least), assigned footprints, and started laying out the pcb. Holy crap laying those sensors out was awful, and I now have a lot more respect for all of the hardware nerds in HC. The main really hard part was getting the accelerometers/gyro chips routed - they're nearly overlapping (kind of have to, so the axes make sense). I actually used all 4 layers of the pcb to get that routed - using part of my power and ground layers for the signals.
+Here's what the pcb looks like so far (I still have the mosfets to route - that's going to be an adventure):
+![wholepcb_started](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTg3NSwicHVyIjoiYmxvYl9pZCJ9fQ==--865253030054a686e14c2b82bf5051d1db28a810/wholepcb_started.png)
+
+And here's that awful area:
+![theawfularea](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTg3NiwicHVyIjoiYmxvYl9pZCJ9fQ==--b8b562422de1e67425281e3eb880f5eb17a4536e/theawfularea.png)
+
+
+Btw the reason this took so long was because this is the first pcb I've ever done, and I probably picked a bit of a complicated design to start with. Oh well.
   
 
