@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ECS-TXO-25CSMV-320-AM-TR
+D TCXO Oscillators 32MHz 0.5ppm 1.7V to 3.465V
+K
+F https://ecsxtal.com/store/pdf/ECS-TXO-25CSMV.pdf
+$ENDCMP
+#
+#End Doc Library

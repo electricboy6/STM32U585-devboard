@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "MMC5983MA"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-12-24-09:13:12)
+    (mountForm default
+        (footprintRef "MMC5983MA")
+        (spec "System")
+    )
+)

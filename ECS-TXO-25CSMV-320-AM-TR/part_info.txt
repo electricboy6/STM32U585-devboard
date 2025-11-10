@@ -1,0 +1,9 @@
+Manufacturer=ECS
+PartNumber=ECS-TXO-25CSMV-320-AM-TR
+PartCategory=Crystal or Oscillator
+PackageCategory=Other
+PinCount=4
+Version=1.2
+Released=2022-11-17 07:31:41
+Downloaded=2025-11-03 02:18:50
+3D=Y

@@ -1,0 +1,16 @@
+.ECS-TXO-25CSMV-320-AM-TR :1 ;TCXO Oscillators 32MHz 0.5ppm 1.7V to 3.465V
+ECSTXO25CSMV320AMTR
+*STM Y
+*NGS
+*PLB 1="GROUND_1" 2="GROUND_2" 3="OUTPUT" 4="VDD"
+*MXP 4
+*DFN ECS-TXO-25CSMV-320-AM-TR
+~!Mouser Part Number (520-TXO25CSMV320AMTR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/ECS/ECS-TXO-25CSMV-320-AM-TR?qs=wnTfsH77Xs7GjCu67eLygA%3D%3D)
+~!Manufacturer_Name (ECS)
+~!Manufacturer_Part_Number (ECS-TXO-25CSMV-320-AM-TR)
+~!Link Datasheet (https://ecsxtal.com/store/pdf/ECS-TXO-25CSMV.pdf)
+~!Height (1mm)
+~!3D_Model (ECS-TXO-25CSMV-320-AM-TR)
+ECS-TXO-25CSMV-320-AM-TR
+1.1!U 2.1!U 3.1!U 4.1!U 

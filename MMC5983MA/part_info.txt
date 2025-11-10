@@ -1,0 +1,9 @@
+Manufacturer=MEMSIC
+PartNumber=MMC5983MA
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=16
+Version=1.4
+Released=2019-12-24 09:13:12
+Downloaded=2025-11-10 00:37:01
+3D=Y

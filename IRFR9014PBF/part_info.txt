@@ -1,0 +1,9 @@
+Manufacturer=Vishay
+PartNumber=IRFR9014PBF
+PartCategory=Integrated Circuit
+PackageCategory=TO-XXX (Inc. DPAK)
+PinCount=3
+Version=1.2
+Released=2015-12-27 16:31:34
+Downloaded=2025-11-10 01:06:04
+3D=Y
