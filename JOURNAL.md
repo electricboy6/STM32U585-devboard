@@ -83,3 +83,25 @@ And here's that awful area:
 Btw the reason this took so long was because this is the first pcb I've ever done, and I probably picked a bit of a complicated design to start with. Oh well.
   
 
+## 11/9/2025 - Redid like half the schematic  
+
+I know it doesn't look like I did much, but I redid a lot of my sensor choices (they were suboptimal), and I cleaned stuff up a lot more. I switched the secondary imu to be the same as the primary, and I'm using a new magnetometer that's much more accurate (and not so small that I wouldn't be able to physically put it on the board, so that's good).
+![sensorspage](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6OTkzOCwicHVyIjoiYmxvYl9pZCJ9fQ==--ee1aa5c68cd582f7ee0b2c5ff0b1ffb3dc8b212c/sensorspage.png)
+
+
+One small, but very important thing that I did was switch from buttons to jumpers for boot and reset, since you wouldn't really want the reset button to get "pressed" midflight.
+
+The main thing that was completely overhauled was the mosfet area, where there's now one main p channel for arming all of the channels, then an individual n channel per pyro channel for firing. It's much simpler and more cost effective than my previous choice.
+
+![mainoverhaul](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6OTkzNSwicHVyIjoiYmxvYl9pZCJ9fQ==--42f269b3c80f56495e321551b30e46279d8f4281/mainoverhaul.png)
+
+I also started the rf design part (mainly research at this point). I had to make my own (very bad and partially incomplete) symbol for the lr2021 (below).
+![lr2021 symbol](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6OTkzNiwicHVyIjoiYmxvYl9pZCJ9fQ==--15dbd30b64098dcf436023f262b9c2953ce7ab0c/lr2021%20symbol.png)
+
+Unfortunately, there are LITERALLY NO COMPONENT VALUES on the reference design, and the design looks like it's in 144p so you CAN'T READ ANYTHING AAAAAAHHHH (i'm dying internally).
+
+Finally, I also redid my pin allocations, which are now much cleaner.
+![newstarea](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6OTkzNywicHVyIjoiYmxvYl9pZCJ9fQ==--09a0256cddcfd2670b4a4f33d1db1254057cb2c3/newstarea.png)
+
+  
+
