@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--/15550531/1794276/2.50/4/4/Crystal or Oscillator/-->
+<quadcept_library>
+  <setting unit="mil" />
+  <textstyle name="Default" height="47.244094488189" strokewidth="7.8740157480315" charwidth="47.244094488189" />
+  <textstyle name="Dimension" height="19.6850393700787" strokewidth="0" charwidth="19.6850393700787" />
+  <textstyle name="H127W0635TH00762" height="50" strokewidth="3" charwidth="25" />
+  <textstyle name="H15W15TH02" height="59.0551181102362" strokewidth="7.8740157480315" charwidth="59.0551181102362" />
+  <padstyle name="r120_100" surface="True" plated="False" isvia="False" nopaste="False" nomask="True" complex="False" holesize="0">
+    <padshape layer="TOP" shape="rectangle" width="39.370078740157" height="47.244094488188" />
+    <padshape layer="TOP_SOLDER_MASK" shape="rectangle" width="47.244094488188" height="55.11811023622" />
+    <padshape layer="TOP_SOLDER_PASTE" shape="rectangle" width="39.370078740157" height="47.244094488188" />
+  </padstyle>
+  <footprint name="ECS160836B2CKMTR" originx="0" originy="0" pickpointx="0" pickpointy="0">
+    <pcbpin number="1" name="1" style="r120_100" originx="-33.464566929133" originy="-25.590551181102" rotation="90" />
+    <pcbpin number="2" name="2" style="r120_100" originx="33.464566929133" originy="-25.590551181102" rotation="90" />
+    <pcbpin number="3" name="3" style="r120_100" originx="33.464566929133" originy="25.590551181102" rotation="90" />
+    <pcbpin number="4" name="4" style="r120_100" originx="-33.464566929133" originy="25.590551181102" rotation="90" />
+    <line layer="TOP_ASSEMBLY" originx="-49.212598425196" originy="39.370078740157" endx="49.212598425196" endy="39.370078740157" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="49.212598425196" originy="39.370078740157" endx="49.212598425196" endy="-39.370078740157" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="49.212598425196" originy="-39.370078740157" endx="-49.212598425196" endy="-39.370078740157" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="-49.212598425196" originy="-39.370078740157" endx="-49.212598425196" endy="39.370078740157" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="-96.456692913385" originy="84.645669291338" endx="96.456692913385" endy="84.645669291338" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="96.456692913385" originy="84.645669291338" endx="96.456692913385" endy="-84.645669291338" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="96.456692913385" originy="-84.645669291338" endx="-96.456692913385" endy="-84.645669291338" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="-96.456692913385" originy="-84.645669291338" endx="-96.456692913385" endy="84.645669291338" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-74.803149606298" originy="-23.622047244094" endx="-74.803149606298" endy="-23.622047244094" width="3.9370078740157" />
+    <arc layer="TOP_SILKSCREEN" originx="-74.803149606298" originy="-25.590551181102" startangle="90.0" sweepangle="180.0" radius="1.9685039370078" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-74.803149606298" originy="-27.55905511811" endx="-74.803149606298" endy="-27.55905511811" width="3.9370078740157" />
+    <arc layer="TOP_SILKSCREEN" originx="-74.803149606298" originy="-25.590551181102" startangle="-90.0" sweepangle="180.0" radius="1.9685039370078" width="3.9370078740157" />
+  </footprint>
+  <symbol name="ECS-160-8-36B2-CKM-TR" originx="0" originy="0">
+    <line originx="200" originy="100" endx="1100" endy="100" width="0" />
+    <line originx="1100" originy="-200" endx="1100" endy="100" width="0" />
+    <line originx="1100" originy="-200" endx="200" endy="-200" width="0" />
+    <line originx="200" originy="100" endx="200" endy="-200" width="0" />
+    <sympin number="1" originx="200" originy="-100" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-100" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="IN/OUT" />
+      <text name="pindes" originx="140" originy="-80" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="1" />
+    </sympin>
+    <sympin number="2" originx="1100" originy="-100" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="1070" originy="-100" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="GND_1" />
+      <text name="pindes" originx="1160" originy="-80" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="2" />
+    </sympin>
+    <sympin number="3" originx="1100" originy="0" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="1070" originy="0" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="OUT/IN" />
+      <text name="pindes" originx="1160" originy="20" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="3" />
+    </sympin>
+    <sympin number="4" originx="200" originy="0" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="0" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="GND_2" />
+      <text name="pindes" originx="140" originy="20" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="4" />
+    </sympin>
+  </symbol>
+  <component name="ECS-160-8-36B2-CKM-TR" designatorprefix="Y" height="23.622047244094" footprint="ECS160836B2CKMTR">
+    <comppin designator="1" sympin="1" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="IN/OUT" />
+    <comppin designator="2" sympin="2" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="GND_1" />
+    <comppin designator="3" sympin="3" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="OUT/IN" />
+    <comppin designator="4" sympin="4" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="GND_2" />
+    <attached_symbol gate="1" name="ECS-160-8-36B2-CKM-TR" />
+    <pinmap designator="1" footprintpin="1" />
+    <pinmap designator="2" footprintpin="2" />
+    <pinmap designator="3" footprintpin="3" />
+    <pinmap designator="4" footprintpin="4" />
+    <text name="Datasheet" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://www.mouser.fr/datasheet/2/122/ECX_2236B2-2400583.pdf" />
+    <text name="Description" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="Crystals 16.000 MHz 8 pF +/-10 +/-10 -20 +70 C +/-2 ppm Max. ESR = 70" />
+    <text name="Mouser Part Number" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="520-160-8-36B2-CKMTR" />
+    <text name="Mouser Price/Stock" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://www.mouser.co.uk/ProductDetail/ECS/ECS-160-8-36B2-CKM-TR?qs=QNEnbhJQKvaIQPndV3OLHg%3D%3D" />
+    <text name="Manufacturer_Name" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="ECS" />
+    <text name="Manufacturer_Part_Number" originx="1150" originy="200" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="ECS-160-8-36B2-CKM-TR" />
+  </component>
+</quadcept_library>

@@ -1,0 +1,106 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "ECS-160-8-36B2-CKM-TR"
+   (description "Crystals 16.000 MHz 8 pF +/-10 +/-10 -20 +70 C +/-2 ppm Max. ESR = 70")
+   (family "OSC")
+   (package "ECS160836B2CKMTR")
+   (attribute "Datasheet Link" "https://www.mouser.fr/datasheet/2/122/ECX_2236B2-2400583.pdf")
+   (attribute "Geometry.Height" "0.6mm")
+   (attribute "Mouser Part Number" "520-160-8-36B2-CKMTR")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ECS/ECS-160-8-36B2-CKM-TR?qs=QNEnbhJQKvaIQPndV3OLHg%3D%3D")
+   (attribute "Manufacturer_Name" "ECS")
+   (attribute "Manufacturer_Part_Number" "ECS-160-8-36B2-CKM-TR")
+   (gate
+    (symbol "ECS-160-8-36B2-CKM-TR")
+    (pin "IN/OUT" 1 PS)
+    (pin "GND_1" 2 PS)
+    (pin "OUT/IN" 3 PS)
+    (pin "GND_2" 4 PS)
+   )
+  )
+  (symbol "ECS-160-8-36B2-CKM-TR"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1100 100) (pt 1100 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "ECS160836B2CKMTR"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.25 1)
+      (pt 1.25 1)
+      (pt 1.25 -1)
+      (pt -1.25 -1)
+      (pt -1.25 1))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.45 2.15)
+      (pt 2.45 2.15)
+      (pt 2.45 -2.15)
+      (pt -2.45 -2.15)
+      (pt -2.45 2.15))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.9 -0.6)
+      (arc (pt -1.900 -0.600) (pt -1.950 -0.700) (pt -1.850 -0.600) (start 180.0) (sweep 90.0))
+      (pt -1.9 -0.7)
+      (arc (pt -1.900 -0.700) (pt -1.950 -0.700) (pt -1.850 -0.600) (start 180.0) (sweep -90.0))
+      (pt -1.9 -0.6))))
+   (leg 1 (pt -0.850 -0.650) (padstack 0))
+   (leg 2 (pt 0.850 -0.650) (padstack 0))
+   (leg 3 (pt 0.850 0.650) (padstack 0))
+   (leg 4 (pt -0.850 0.650) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1.000 1.200 0 0 0.000))
+   )
+   (model "ECS-160-8-36B2-CKM-TR.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

@@ -1,0 +1,9 @@
+Manufacturer=ECS
+PartNumber=ECS-160-8-36B2-CKM-TR
+PartCategory=Crystal or Oscillator
+PackageCategory=Other
+PinCount=4
+Version=1.8
+Released=2021-12-24 10:27:32
+Downloaded=2025-11-24 02:24:11
+3D=Y

@@ -73,7 +73,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "30"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -109,7 +109,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -127,7 +127,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -138,14 +138,14 @@
 			(pin power_out line
 				(at -19.05 -12.7 0)
 				(length 2.54)
-				(name "VRPAX2"
+				(name "VPAX2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number ""
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -163,7 +163,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -181,7 +181,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -199,7 +199,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -217,7 +217,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -235,7 +235,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -253,7 +253,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -271,7 +271,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -289,7 +289,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "10"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -307,7 +307,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "27"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -325,7 +325,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "28"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -343,7 +343,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "29"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -361,7 +361,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "31"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -379,7 +379,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "32"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -397,7 +397,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "26"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -415,7 +415,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "25"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -433,7 +433,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "11"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -451,7 +451,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -469,7 +469,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -487,7 +487,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -505,7 +505,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "16"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -523,7 +523,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "17"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -541,7 +541,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "18"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -559,7 +559,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "19"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -577,7 +577,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "20"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -595,7 +595,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "21"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -613,7 +613,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "22"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -631,7 +631,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "23"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -649,7 +649,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "24"
 					(effects
 						(font
 							(size 1.27 1.27)

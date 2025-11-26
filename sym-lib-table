@@ -8,4 +8,5 @@
   (lib (name "ECS-TXO-25CSMV-320-AM-TR")(type "KiCad")(uri "${KIPRJMOD}/ECS-TXO-25CSMV-320-AM-TR/KiCad/ECS-TXO-25CSMV-320-AM-TR.kicad_sym")(options "")(descr ""))
   (lib (name "MMC5983MA")(type "KiCad")(uri "${KIPRJMOD}/MMC5983MA/KiCad/MMC5983MA.kicad_sym")(options "")(descr ""))
   (lib (name "IRFR9014PBF")(type "KiCad")(uri "${KIPRJMOD}/IRFR9014PBF/KiCad/IRFR9014PBF.kicad_sym")(options "")(descr ""))
+  (lib (name "ECS-160-8-36B2-CKM-TR")(type "KiCad")(uri "${KIPRJMOD}/ECS-160-8-36B2-CKM-TR/KiCad/ECS-160-8-36B2-CKM-TR.kicad_sym")(options "")(descr ""))
 )

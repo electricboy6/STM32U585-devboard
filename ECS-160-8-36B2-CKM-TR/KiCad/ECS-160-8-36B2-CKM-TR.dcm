@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ECS-160-8-36B2-CKM-TR
+D Crystals 16.000 MHz 8 pF +/-10 +/-10 -20 +70 C +/-2 ppm Max. ESR = 70
+K
+F https://www.mouser.fr/datasheet/2/122/ECX_2236B2-2400583.pdf
+$ENDCMP
+#
+#End Doc Library
