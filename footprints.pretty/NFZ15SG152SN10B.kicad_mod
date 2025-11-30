@@ -1,0 +1,181 @@
+(footprint "NFZ15SG152SN10B"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "BLM15 L=1.0 W=0.5 T=0.5")
+	(tags "Ferrite Bead")
+	(property "Reference" "FB**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "45a9d9cf-ec15-46ff-b0d5-e8bc25afaab4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "NFZ15SG152SN10B"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c09e2e03-fe00-4e31-a841-df99c7b12680")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "90d803f2-24ce-4f89-ac36-a04f503e338a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "63169f55-7786-4454-8380-65f75c36c151")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0 -0.15)
+		(end 0 0.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "37cc5fcb-0145-407c-b9b0-cab098de8c6b")
+	)
+	(fp_line
+		(start -1.175 -0.7)
+		(end 1.175 -0.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d04e634a-d580-4590-8bda-bb675eba3753")
+	)
+	(fp_line
+		(start -1.175 0.7)
+		(end -1.175 -0.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6cc51f19-a112-4706-8c97-e053b7b9cbfa")
+	)
+	(fp_line
+		(start 1.175 -0.7)
+		(end 1.175 0.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "472a9fe6-c95e-4892-94cf-13686310ff5c")
+	)
+	(fp_line
+		(start 1.175 0.7)
+		(end -1.175 0.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "18327d08-cd26-48db-a852-ef6a5f51643a")
+	)
+	(fp_line
+		(start -0.5 -0.25)
+		(end 0.5 -0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bf6cdd7c-d8a8-4338-bd7c-aaf58c17b8cc")
+	)
+	(fp_line
+		(start -0.5 0.25)
+		(end -0.5 -0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dca1301f-3cd2-4cd5-b495-a0ec76b4f198")
+	)
+	(fp_line
+		(start 0.5 -0.25)
+		(end 0.5 0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a29d721c-2af0-42e2-b410-2a4cab09fad5")
+	)
+	(fp_line
+		(start 0.5 0.25)
+		(end -0.5 0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3a653acf-90c2-4425-8cda-09d5345b2177")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "8088e014-f309-43d9-a393-b2313e96ac43")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.4 0)
+		(size 0.4 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "55371bdb-9f35-49d9-a976-ec09e3af04f4")
+	)
+	(pad "2" smd rect
+		(at 0.4 0)
+		(size 0.4 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e8ce0f31-c16d-4b33-8754-3590278982a9")
+	)
+	(embedded_fonts no)
+	(model "BLM15AX102SN1D.stp"
+		(offset
+			(xyz 0.2499999962 0 0.2499999962)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+)

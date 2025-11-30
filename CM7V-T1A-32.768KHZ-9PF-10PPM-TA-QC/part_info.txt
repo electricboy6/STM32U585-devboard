@@ -1,0 +1,9 @@
+Manufacturer=Micro Crystal AG
+PartNumber=CM7V-T1A-32.768KHZ-9PF-10PPM-TA-QC
+PartCategory=Crystal or Oscillator
+PackageCategory=Other
+PinCount=2
+Version=2.3
+Released=2021-07-07 13:55:35
+Downloaded=2025-11-29 19:56:34
+3D=Y

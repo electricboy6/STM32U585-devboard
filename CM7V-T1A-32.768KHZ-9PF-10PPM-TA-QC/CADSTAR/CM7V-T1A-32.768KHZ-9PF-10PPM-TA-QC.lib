@@ -1,0 +1,16 @@
+.CM7V-T1A-32.768KHZ-9PF-10PPM-TA-QC :1 ;CRYSTAL 32.768KHZ SMD
+CM7V32768TBQA020
+*STM Y
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN CM7V-T1A-32.768KHZ-9PF-10PPM-TA-QC
+~!Mouser Part Number (428-201565-MG01)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Micro-Crystal/CM7V-T1A-32.768kHz-9pF-10PPM-TA-QC?qs=7bTaA%2FLYtSbcWt4HcA5rHA%3D%3D)
+~!Manufacturer_Name (Micro Crystal AG)
+~!Manufacturer_Part_Number (CM7V-T1A-32.768KHZ-9PF-10PPM-TA-QC)
+~!Link Datasheet (https://www.microcrystal.com/fileadmin/Media/Products/32kHz/Datasheet/CM7V-T1A.pdf)
+~!Height (0.65mm)
+~!3D_Model (CM7V-T1A-32.768KHZ-9PF-10PPM-TA-QC)
+CM7V-T1A-32.768KHZ-9PF-10PPM-TA-QC
+1.1!U 2.1!U 

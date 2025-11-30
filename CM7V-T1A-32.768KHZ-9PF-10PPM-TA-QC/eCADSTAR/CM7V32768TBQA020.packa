@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "CM7V-T1A-32_768KHZ-9PF-10PPM-T"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-10-29-13:16:37)
+    (mountForm default
+        (footprintRef "CM7V32768TBQA020")
+        (spec "System")
+    )
+)
