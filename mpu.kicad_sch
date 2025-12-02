@@ -2671,16 +2671,6 @@
 		)
 		(uuid "0fdb2361-0039-46e9-b42c-cb293258c0f1")
 	)
-	(text "todo: figure out if my usb implementation is correct\n"
-		(exclude_from_sim no)
-		(at 94.234 162.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "316d63af-b3ee-4b6c-897e-d0f239d7f88c")
-	)
 	(junction
 		(at 140.97 49.53)
 		(diameter 0)
