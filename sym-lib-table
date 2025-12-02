@@ -10,4 +10,5 @@
   (lib (name "IRFR9014PBF")(type "KiCad")(uri "${KIPRJMOD}/IRFR9014PBF/KiCad/IRFR9014PBF.kicad_sym")(options "")(descr ""))
   (lib (name "ECS-160-8-36B2-CKM-TR")(type "KiCad")(uri "${KIPRJMOD}/ECS-160-8-36B2-CKM-TR/KiCad/ECS-160-8-36B2-CKM-TR.kicad_sym")(options "")(descr ""))
   (lib (name "CM7V-T1A-32_768KHZ-9PF-10PPM-T")(type "KiCad")(uri "${KIPRJMOD}/CM7V-T1A-32.768KHZ-9PF-10PPM-TA-QC/KiCad/CM7V-T1A-32_768KHZ-9PF-10PPM-T.kicad_sym")(options "")(descr ""))
+  (lib (name "73412-0114")(type "KiCad")(uri "${KIPRJMOD}/73412-0114/KiCad/73412-0114.kicad_sym")(options "")(descr ""))
 )

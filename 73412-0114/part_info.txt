@@ -1,0 +1,9 @@
+Manufacturer=Molex
+PartNumber=73412-0114
+PartCategory=Connector
+PackageCategory=Other
+PinCount=4
+Version=1.1
+Released=2017-11-25 12:27:54
+Downloaded=2025-12-01 00:06:40
+3D=Y
