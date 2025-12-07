@@ -1,0 +1,9 @@
+Manufacturer=Renesas Electronics
+PartNumber=AT25SF041B-SSHB-B
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=8
+Version=3.1
+Released=2022-06-26 06:01:59
+Downloaded=2025-12-07 04:28:15
+3D=Y

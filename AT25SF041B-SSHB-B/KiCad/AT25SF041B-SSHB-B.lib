@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model AT25SF041B-SSHB-B
+#/16436755/1794276/2.50/8/2/Integrated Circuit
+DEF AT25SF041B-SSHB-B IC 0 30 Y Y 1 F N
+F0 "IC" 1450 300 50 H V L CNN
+F1 "AT25SF041B-SSHB-B" 1450 200 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1450 100 50 H I L CNN
+F3 "https://www.renesas.com/us/en/products/memory-logic/non-volatile-memory/spi-nor-flash/dual-quad-spi-memory/at25sf041b-4mbit-27v-minimum-spi-serial-flash-memory-dual-io-support" 1450 0 50 H I L CNN
+F4 "The AT25SF041B is a member of our standard class code and data storage solutions designed for 3V systems in which program code is shadowed from Flash memory into embedded or external RAM for execution.The architecture includes erase block sizes that are optimized to meet the needs of today\'s code and data storage applications and three security register pages for unique device serialization, system-level Electronic Serial Number (ESN) storage, locked key storage, etc.	Universally compatible pinout and comma" 1450 -100 50 H I L CNN "Description"
+F5 "1.75" 1450 -200 50 H I L CNN "Height"
+F6 "988-AT25SF041-SSH-B" 1450 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Renesas-Dialog/AT25SF041B-SSHB-B?qs=IS%252B4QmGtzzpXYmyz2tD79g%3D%3D" 1450 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Renesas Electronics" 1450 -500 50 H I L CNN "Manufacturer_Name"
+F9 "AT25SF041B-SSHB-B" 1450 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~CS 1 0 0 200 R 50 50 0 0 P
+X SO(IO1) 2 0 -100 200 R 50 50 0 0 P
+X ~WP(IO2) 3 0 -200 200 R 50 50 0 0 P
+X GND 4 0 -300 200 R 50 50 0 0 P
+X VCC 8 1600 0 200 L 50 50 0 0 P
+X ~HOLD(IO3) 7 1600 -100 200 L 50 50 0 0 P
+X SCK 6 1600 -200 200 L 50 50 0 0 P
+X SI(IO0) 5 1600 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1400 100 1400 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

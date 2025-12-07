@@ -2425,6 +2425,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 82.55) (xy 132.08 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d91e252-39ba-41a3-9ad9-78bc8d18a301")
+	)
+	(wire
+		(pts
 			(xy 257.81 99.06) (xy 229.87 99.06)
 		)
 		(stroke
@@ -2912,16 +2922,6 @@
 			(type default)
 		)
 		(uuid "784335ce-dabf-4e6a-bd5c-534bd2712069")
-	)
-	(wire
-		(pts
-			(xy 130.81 82.55) (xy 137.16 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b326ab5-9283-4d76-bd05-b16ef66177b7")
 	)
 	(wire
 		(pts
@@ -3793,16 +3793,6 @@
 		)
 		(uuid "fdf1a575-5af6-4a33-a026-afb0332b3b3e")
 	)
-	(wire
-		(pts
-			(xy 137.16 83.82) (xy 137.16 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff6283da-ff51-40da-aea0-fde8ed5bb12b")
-	)
 	(global_label "vr_pa"
 		(shape input)
 		(at 91.44 92.71 180)
@@ -3821,6 +3811,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "spi_nss"
+		(shape input)
+		(at 132.08 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2227a08f-ba54-4d76-8627-011b333c8ebd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.0199 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -7784,71 +7796,6 @@
 			(project ""
 				(path "/d0cafa98-cc2a-4ab3-8dbc-f937bedf434b/370f9b44-a297-4225-a26d-62410af8a696"
 					(reference "C38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 137.16 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fa57ef3e-2ae0-4724-b2ab-ff7988603fad")
-		(property "Reference" "#PWR076"
-			(at 137.16 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 139.192 86.614 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 137.16 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 137.16 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "17953465-68dc-4224-98c9-f7efbc5e0894")
-		)
-		(instances
-			(project ""
-				(path "/d0cafa98-cc2a-4ab3-8dbc-f937bedf434b/370f9b44-a297-4225-a26d-62410af8a696"
-					(reference "#PWR076")
 					(unit 1)
 				)
 			)
