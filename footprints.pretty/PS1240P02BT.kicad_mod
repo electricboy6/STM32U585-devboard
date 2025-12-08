@@ -1,0 +1,128 @@
+(footprint "PS1240P02BT"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "PS1240P02BT")
+	(tags "Loudspeaker or Buzzer")
+	(property "Reference" "LS**"
+		(at -0.206 -0.063 0)
+		(layer "F.SilkS")
+		(uuid "b2d97921-bc5c-42f0-89d6-6c72e69ae598")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "PS1240P02BT"
+		(at -0.206 -0.063 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4c8e3271-b942-4188-9144-2ada18d562cb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8c217b91-94e8-476d-8501-8d20b142031c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8cdc94c4-49bb-48d5-81bc-465d822ebe79")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center -0.228 -6.861)
+		(end -0.228 -6.81091)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "3f1742b2-b7f9-4ba9-a17e-e9df09a66efe")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 6.1)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "ab694c2a-b021-4876-a555-711f18ca8f66")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 6.1)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "a0905d1b-3dbb-4120-a7e3-1e3a40314907")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.206 -0.063 0)
+		(layer "F.Fab")
+		(uuid "43addbc7-7b85-4f04-b88d-13ce2a42b489")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 -2.5)
+		(size 1.35 1.35)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f7d94f58-e141-4f68-8041-06ae5f7369da")
+	)
+	(pad "2" thru_hole circle
+		(at 0 2.5)
+		(size 1.35 1.35)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f9b1f66b-20bf-4840-9319-d4e1096e94d5")
+	)
+	(embedded_fonts no)
+	(model "PS1240P02BT.stp"
+		(offset
+			(xyz 0 0.02999999888 3.859999837)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
+)

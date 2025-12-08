@@ -1,0 +1,9 @@
+Manufacturer=TDK
+PartNumber=PS1240P02BT
+PartCategory=Loudspeaker or Buzzer
+PackageCategory=Other
+PinCount=2
+Version=3.1
+Released=2017-04-02 20:55:29
+Downloaded=2025-12-08 01:41:31
+3D=Y

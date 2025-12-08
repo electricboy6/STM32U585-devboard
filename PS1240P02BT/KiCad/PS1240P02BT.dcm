@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PS1240P02BT
+D Piezoelectric Buzzers, Sound Pressure Level=70dB min, Freq.=4000Hz nom
+K
+F https://product.tdk.com/system/files/dam/doc/product/sw_piezo/sw_piezo/piezo-buzzer/catalog/piezoelectronic_buzzer_ps_en.pdf
+$ENDCMP
+#
+#End Doc Library

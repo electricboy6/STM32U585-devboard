@@ -11,5 +11,5 @@
   (lib (name "ECS-160-8-36B2-CKM-TR")(type "KiCad")(uri "${KIPRJMOD}/ECS-160-8-36B2-CKM-TR/KiCad/ECS-160-8-36B2-CKM-TR.kicad_sym")(options "")(descr ""))
   (lib (name "CM7V-T1A-32_768KHZ-9PF-10PPM-T")(type "KiCad")(uri "${KIPRJMOD}/CM7V-T1A-32.768KHZ-9PF-10PPM-TA-QC/KiCad/CM7V-T1A-32_768KHZ-9PF-10PPM-T.kicad_sym")(options "")(descr ""))
   (lib (name "73412-0114")(type "KiCad")(uri "${KIPRJMOD}/73412-0114/KiCad/73412-0114.kicad_sym")(options "")(descr ""))
-  (lib (name "AT25SF041B-SSHB-B")(type "KiCad")(uri "${KIPRJMOD}/AT25SF041B-SSHB-B/KiCad/AT25SF041B-SSHB-B.kicad_sym")(options "")(descr ""))
+  (lib (name "PS1240P02BT")(type "KiCad")(uri "${KIPRJMOD}/PS1240P02BT/KiCad/PS1240P02BT.kicad_sym")(options "")(descr ""))
 )

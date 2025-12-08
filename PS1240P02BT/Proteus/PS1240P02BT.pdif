@@ -1,0 +1,94 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "PS1240P02BT"
+   (description "Piezoelectric Buzzers, Sound Pressure Level=70dB min, Freq.=4000Hz nom")
+   (family "ANA")
+   (package "PS1240P02BT")
+   (attribute "Datasheet Link" "https://product.tdk.com/system/files/dam/doc/product/sw_piezo/sw_piezo/piezo-buzzer/catalog/piezoelectronic_buzzer_ps_en.pdf")
+   (attribute "Mouser Part Number" "810-PS1240P02BT")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TDK/PS1240P02BT?qs=d7g9p1yFhWaZXSY9MjKMkw%3D%3D")
+   (attribute "Manufacturer_Name" "TDK")
+   (attribute "Manufacturer_Part_Number" "PS1240P02BT")
+   (gate
+    (symbol "PS1240P02BT")
+    (pin "2" 2 PS)
+    (pin ""  PS)
+   )
+  )
+  (symbol "PS1240P02BT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 50) (pt 280 50) (pt 380 150) (pt 380 -250) (pt 280 -150) (pt 200 -150))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 200 50) (pt 200 -150))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 210 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 210 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "PS1240P02BT"
+   (units MM)
+   (layer TSLK
+    (graphic
+     (stroke 0.254)
+     (circle
+      (pt 6.1 0) (pt -6.1 0)
+     )
+    )
+   )
+   (layer TASM
+    (graphic
+     (stroke 0.254)
+     (circle
+      (pt 6.1 0) (pt -6.1 0)
+     )
+    )
+   )
+   (layer TSLK
+    (graphic
+     (stroke 0.254)
+     (circle
+      (pt -0.27809 6.861) (pt -0.17791 6.861)
+     )
+    )
+   )
+   (leg 1 (pt 0 2.5) (padstack 0))
+   (leg 2 (pt 0 -2.5) (padstack 0))
+   (padstack 0
+    (hole 0.85)
+    (plated true)
+    (pad (layer TCOP) (round 1.35))
+    (pad (layer INNER) (round 1.35))
+    (pad (layer BCOP) (round 1.35))
+   )
+   (model "PS1240P02BT.stp"
+    (euler 90 0 90)
+    (offset 0 0.029999999329447746 3.859999895095825)
+   )
+  )
+ )
+)
