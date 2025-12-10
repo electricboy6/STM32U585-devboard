@@ -164,6 +164,13 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "4b489c9c-837f-4f97-8422-66136ff594ad")
 	)
+	(pad "0" smd rect
+		(at 0 0)
+		(size 3.7 3.7)
+		(property pad_prop_heatsink)
+		(layers "B.Cu")
+		(uuid "b0a19a0c-9b08-4f00-a7c0-4f96edc5a327")
+	)
 	(pad "0" thru_hole circle
 		(at 0.533334 -1.6 90)
 		(size 0.5 0.5)
