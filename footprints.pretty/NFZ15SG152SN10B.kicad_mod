@@ -167,15 +167,15 @@
 		(uuid "e8ce0f31-c16d-4b33-8754-3590278982a9")
 	)
 	(embedded_fonts no)
-	(model "BLM15AX102SN1D.stp"
+	(model "${KIPRJMOD}/BLM15AX102SN1D/3D/BLM15AX102SN1D.stp"
 		(offset
-			(xyz 0.2499999962 0 0.2499999962)
+			(xyz 0.25 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 -90)
+			(xyz -0 -0 -90)
 		)
 	)
 )

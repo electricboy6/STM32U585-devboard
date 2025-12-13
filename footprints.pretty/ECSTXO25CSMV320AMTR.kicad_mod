@@ -211,7 +211,7 @@
 		(uuid "17f4fed2-67e0-4c79-9a3e-f1dc1683cf2c")
 	)
 	(embedded_fonts no)
-	(model "ECS-TXO-25CSMV-320-AM-TR.stp"
+	(model "${KIPRJMOD}/ECS-TXO-25CSMV-320-AM-TR/3D/ECS-TXO-25CSMV-320-AM-TR.stp"
 		(offset
 			(xyz 0 0 0)
 		)

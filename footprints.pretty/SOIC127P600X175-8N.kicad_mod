@@ -253,7 +253,7 @@
 		(uuid "cb30dc7e-8115-4afe-8c7d-b1aa4c3877b3")
 	)
 	(embedded_fonts no)
-	(model "AT25SF041B-SSHB-B.stp"
+	(model "${KIPRJMOD}/AT25SF041B-SSHB-B/3D/AT25SF041B-SSHB-B.stp"
 		(offset
 			(xyz 0 0 0)
 		)

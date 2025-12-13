@@ -294,15 +294,15 @@
 		(uuid "60733b2f-8f5f-4ca3-8d35-495e00c59cea")
 	)
 	(embedded_fonts no)
-	(model "IRFR9014PBF.stp"
+	(model "${KIPRJMOD}/IRFR9014PBF/3D/IRFR9014PBF.stp"
 		(offset
-			(xyz 0.9599999641 -0.01999999925 -0.009999999626)
+			(xyz 0.5 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 90)
+			(xyz -0 -0 90)
 		)
 	)
 )

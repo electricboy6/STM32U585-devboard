@@ -114,15 +114,15 @@
 		(uuid "f9b1f66b-20bf-4840-9319-d4e1096e94d5")
 	)
 	(embedded_fonts no)
-	(model "PS1240P02BT.stp"
+	(model "${KIPRJMOD}/PS1240P02BT/3D/PS1240P02BT.stp"
 		(offset
-			(xyz 0 0.02999999888 3.859999837)
+			(xyz 0 0 3.5)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 0 -90)
+			(xyz -90 -0 -90)
 		)
 	)
 )

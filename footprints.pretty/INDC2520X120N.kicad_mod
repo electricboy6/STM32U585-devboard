@@ -167,7 +167,7 @@
 		(uuid "6792ab34-116a-411c-84dc-8dffd1f2f42f")
 	)
 	(embedded_fonts no)
-	(model "MAMK2520H2R2M.stp"
+	(model "${KIPRJMOD}/MAMK2520H2R2M/3D/MAMK2520H2R2M.stp"
 		(offset
 			(xyz 0 0 0)
 		)

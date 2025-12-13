@@ -363,15 +363,15 @@
 		(uuid "f1345ce9-73fe-4a7e-a3dc-dfb65c087355")
 	)
 	(embedded_fonts no)
-	(model "MMC5983MA.stp"
+	(model "${KIPRJMOD}/MMC5983MA/3D/MMC5983MA.stp"
 		(offset
-			(xyz 0 0.1800000044 0)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 0 0)
+			(xyz -90 -0 -0)
 		)
 	)
 )

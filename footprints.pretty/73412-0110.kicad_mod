@@ -140,15 +140,15 @@
 		(uuid "eac83407-f5f3-4a06-923a-1533b27bee2b")
 	)
 	(embedded_fonts no)
-	(model "73412-0114.stp"
+	(model "${KIPRJMOD}/73412-0114/3D/73412-0114.stp"
 		(offset
-			(xyz 0 -0.009999999626 1.299999933)
+			(xyz 0 0 1.3)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )

@@ -317,7 +317,7 @@
 		(uuid "160eaaaa-eb88-4c8e-b0ff-14b27ac1a5ee")
 	)
 	(embedded_fonts no)
-	(model "MPM3610GQV-Z.stp"
+	(model "${KIPRJMOD}/MPM3610GQV-Z/3D/MPM3610GQV-Z.stp"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -351,7 +351,7 @@
 		(uuid "f7a2b3cf-ac96-428b-b7d9-04b97116f94f")
 	)
 	(embedded_fonts no)
-	(model "ICM-42670-P.stp"
+	(model "${KIPRJMOD}/ICM-42670-P/3D/ICM-42670-P.stp"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -359,7 +359,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 0 0)
+			(xyz -90 -0 -0)
 		)
 	)
 )

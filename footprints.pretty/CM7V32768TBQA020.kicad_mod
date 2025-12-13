@@ -177,15 +177,15 @@
 		(uuid "6d718ff6-7173-4dd9-8de2-4f4f7fecc5f5")
 	)
 	(embedded_fonts no)
-	(model "CM7V-T1A-32.768KHZ-9PF-10PPM-TA-QC.stp"
+	(model "${KIPRJMOD}/CM7V-T1A-32.768KHZ-9PF-10PPM-TA-QC/3D/CM7V-T1A-32.768KHZ-9PF-10PPM-TA-QC.stp"
 		(offset
-			(xyz 0 0 0.279999997)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 0 0)
+			(xyz -90 -0 -0)
 		)
 	)
 )

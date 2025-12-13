@@ -211,7 +211,7 @@
 		(uuid "de6b79d8-4043-4a3d-9cff-52422ea88c08")
 	)
 	(embedded_fonts no)
-	(model "ECS-160-8-36B2-CKM-TR.stp"
+	(model "${KIPRJMOD}/ECS-160-8-36B2-CKM-TR/3D/ECS-160-8-36B2-CKM-TR.stp"
 		(offset
 			(xyz 0 0 0)
 		)

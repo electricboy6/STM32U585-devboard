@@ -247,7 +247,7 @@
 		(uuid "a8c3e627-08e7-4133-ae4d-05180b57b327")
 	)
 	(embedded_fonts no)
-	(model "BMP581.stp"
+	(model "${KIPRJMOD}/BMP581/3D/BMP581.stp"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -255,7 +255,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 0 0)
+			(xyz -90 -0 -0)
 		)
 	)
 )
