@@ -3925,7 +3925,7 @@
 			)
 		)
 	)
-	(global_label "i2c1_sck"
+	(global_label "i2c2_sck"
 		(shape input)
 		(at 198.12 99.06 180)
 		(fields_autoplaced yes)
@@ -3991,7 +3991,7 @@
 			)
 		)
 	)
-	(global_label "i2c1_sda"
+	(global_label "i2c2_sda"
 		(shape bidirectional)
 		(at 198.12 96.52 180)
 		(fields_autoplaced yes)

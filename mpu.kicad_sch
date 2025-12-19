@@ -4270,7 +4270,7 @@
 		(uuid "fdfae636-60d7-4a0c-974a-2a0b6a1062ff")
 	)
 	(label "servo1"
-		(at 217.17 81.28 180)
+		(at 217.17 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4280,7 +4280,7 @@
 		(uuid "1137846e-3c75-47cb-b024-42eafbdbf844")
 	)
 	(label "servo4"
-		(at 217.17 73.66 180)
+		(at 217.17 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4300,7 +4300,7 @@
 		(uuid "37183d9a-72fc-4ac1-bfb2-9294baf71a91")
 	)
 	(label "servo3"
-		(at 217.17 76.2 180)
+		(at 217.17 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4330,7 +4330,7 @@
 		(uuid "7c63e5ab-61d4-4f8e-a71e-860544305265")
 	)
 	(label "servo2"
-		(at 217.17 78.74 180)
+		(at 217.17 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
