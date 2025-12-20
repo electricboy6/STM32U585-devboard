@@ -2702,6 +2702,12 @@
 		(uuid "1a217231-0f00-4b54-a448-28fe78b4afdc")
 	)
 	(junction
+		(at 276.86 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a9a54cb-e8cc-4920-b858-eff8279f8ca9")
+	)
+	(junction
 		(at 165.1 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2955,6 +2961,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 140.97) (xy 267.97 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3100f676-c41d-464c-928c-965e88ca0924")
+	)
+	(wire
+		(pts
 			(xy 57.15 105.41) (xy 55.88 105.41)
 		)
 		(stroke
@@ -3155,6 +3171,16 @@
 	)
 	(wire
 		(pts
+			(xy 276.86 139.7) (xy 276.86 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56a2c49d-06a2-4a1d-8f05-cd0767161844")
+	)
+	(wire
+		(pts
 			(xy 57.15 102.87) (xy 57.15 105.41)
 		)
 		(stroke
@@ -3205,6 +3231,16 @@
 	)
 	(wire
 		(pts
+			(xy 275.59 143.51) (xy 276.86 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b49f8a8-fa1f-4b14-9cb1-ebf883739d11")
+	)
+	(wire
+		(pts
 			(xy 46.99 55.88) (xy 48.26 55.88)
 		)
 		(stroke
@@ -3222,6 +3258,16 @@
 			(type default)
 		)
 		(uuid "71982479-cd0f-4c1b-bec3-54ae569eeaac")
+	)
+	(wire
+		(pts
+			(xy 276.86 143.51) (xy 276.86 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "769b635e-c458-47e4-a1a9-3608b556f8d0")
 	)
 	(wire
 		(pts
@@ -3352,6 +3398,16 @@
 			(type default)
 		)
 		(uuid "8fd41940-3a52-4846-bb75-5450589ed223")
+	)
+	(wire
+		(pts
+			(xy 276.86 140.97) (xy 275.59 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "908fa830-9d9f-40af-aea6-df46a290c51f")
 	)
 	(wire
 		(pts
@@ -3795,6 +3851,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 143.51) (xy 267.97 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5c26ee6-1cce-4336-b51f-83f6180e0f2d")
+	)
+	(wire
+		(pts
 			(xy 165.1 52.07) (xy 161.29 52.07)
 		)
 		(stroke
@@ -3909,6 +3975,28 @@
 			)
 		)
 	)
+	(global_label "i2c2_sck"
+		(shape output)
+		(at 265.43 143.51 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "462387bc-ad6c-4c6a-9c75-b0d8276bd802")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 254.22 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ppu_rx_external"
 		(shape output)
 		(at 181.61 109.22 0)
@@ -4019,6 +4107,28 @@
 			)
 		)
 	)
+	(global_label "i2c2_sda"
+		(shape bidirectional)
+		(at 265.43 140.97 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e3716a2f-9460-4f8d-a165-827ce66813b0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 252.9274 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ppu_tx_external"
 		(shape input)
 		(at 166.37 111.76 180)
@@ -4060,6 +4170,139 @@
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 276.86 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "033409a2-79f1-48be-a48c-d393cad15ffe")
+		(property "Reference" "#PWR090"
+			(at 276.86 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 276.86 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 276.86 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 276.86 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 276.86 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3e67e00-5c8f-4fa5-9f7c-0a7d7e91cb33")
+		)
+		(instances
+			(project "stDevboard"
+				(path "/d0cafa98-cc2a-4ab3-8dbc-f937bedf434b"
+					(reference "#PWR090")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 271.78 140.97 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0e6cf4ab-1ac2-4e92-bb39-324bbb2c4c28")
+		(property "Reference" "R34"
+			(at 271.78 136.398 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.7k"
+			(at 272.034 138.684 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 271.78 142.748 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 271.78 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 271.78 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "25bd6021-4d78-43cb-805a-d61bef6f1ccf")
+		)
+		(pin "1"
+			(uuid "8ec1a91f-eb18-4860-b453-ddbbf065c164")
+		)
+		(instances
+			(project "stDevboard"
+				(path "/d0cafa98-cc2a-4ab3-8dbc-f937bedf434b"
+					(reference "R34")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -6423,6 +6666,73 @@
 			(project ""
 				(path "/d0cafa98-cc2a-4ab3-8dbc-f937bedf434b"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 271.78 143.51 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cb15767d-4d61-4010-8bf5-e8e5ce9d4a3e")
+		(property "Reference" "R35"
+			(at 271.526 147.828 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.7k"
+			(at 271.78 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 271.78 145.288 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 271.78 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 271.78 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "eace8e0f-c463-4fa1-b644-98c2b5cfdb28")
+		)
+		(pin "1"
+			(uuid "9660d25b-daba-4d86-8de2-dac368ccd753")
+		)
+		(instances
+			(project "stDevboard"
+				(path "/d0cafa98-cc2a-4ab3-8dbc-f937bedf434b"
+					(reference "R35")
 					(unit 1)
 				)
 			)

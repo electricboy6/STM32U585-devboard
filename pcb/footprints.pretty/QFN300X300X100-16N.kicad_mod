@@ -334,4 +334,15 @@
 		(uuid "9a9e6183-8631-42d0-83f3-adda255bb948")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/H3LIS331DLTR/H3LIS331DLTR.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

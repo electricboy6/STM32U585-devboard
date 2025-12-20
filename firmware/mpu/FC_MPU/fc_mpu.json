@@ -5,7 +5,7 @@
     "extra_flags": "-DSTM32U5 -DSTM32U5xx -DSTM32U585xx",
     "f_cpu": "160000000L",
     "framework_extra_flags": {
-      "arduino": "-DPIO_FRAMEWORK_ARDUINO_ENABLE_CDC -DARDUINO_GENERIC_U585CIUXQ"
+      "arduino": "-DPIO_FRAMEWORK_ARDUINO_ENABLE_CDC -DUSBCON -DARDUINO_GENERIC_U585CIUXQ"
     },
     "mcu": "stm32u585ciu6q",
     "product_line": "STM32U585xx",
@@ -22,7 +22,7 @@
   ],
   "name": "Flight Computer MPU",
   "upload": {
-    "maximum_ram_size": 262144,
+    "maximum_ram_size": 804864,
     "maximum_size": 2097152,
     "maximum_data_size": 804864,
     "protocol": "stlink",
