@@ -6,27 +6,27 @@ extern "C" {
 #endif
 
 const PinName digitalPin[] = {
-    PA0,
-    PA1,
-    PA2,
-    PA3,
-    PA4,
-    PA5,
-    PA6,
-    PA7,
-    PA8,
-    PA9,
-    PA10,
-    PB0,
-    PB1,
-    PB3,
-    PB4,
-    PB5,
-    PB6,
-    PB7,
-    PB13,
-    PB14,
-    PB15
+    PA_0,
+    PA_1,
+    PA_2,
+    PA_3,
+    PA_4,
+    PA_5,
+    PA_6,
+    PA_7,
+    PA_8,
+    PA_9,
+    PA_10,
+    PB_0,
+    PB_1,
+    PB_3,
+    PB_4,
+    PB_5,
+    PB_6,
+    PB_7,
+    PB_13,
+    PB_14,
+    PB_15
 };
 
 const uint32_t analogInputPin[] = {};
