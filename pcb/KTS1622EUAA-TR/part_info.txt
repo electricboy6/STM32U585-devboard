@@ -1,9 +1,0 @@
-Manufacturer=Kinetic Technologies
-PartNumber=KTS1622EUAA-TR
-PartCategory=Integrated Circuit
-PackageCategory=Quad Flat No-Lead
-PinCount=25
-Version=1.1
-Released=2023-01-14 05:56:42
-Downloaded=2025-10-26 15:43:53
-3D=Y
