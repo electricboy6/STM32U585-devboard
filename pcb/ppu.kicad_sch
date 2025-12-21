@@ -3795,6 +3795,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 104.14) (xy 82.55 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "270a2445-80ec-46ea-9c58-994e9b9eb79e")
+	)
+	(wire
+		(pts
 			(xy 34.29 129.54) (xy 34.29 130.81)
 		)
 		(stroke
@@ -4195,16 +4205,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 102.87) (xy 96.52 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83324f80-3266-4db2-a9b1-e7e4e84c4e59")
-	)
-	(wire
-		(pts
 			(xy 127 107.95) (xy 128.27 107.95)
 		)
 		(stroke
@@ -4562,6 +4562,16 @@
 			(type default)
 		)
 		(uuid "d19eae1d-22ca-42ae-91b5-8b9514974f8d")
+	)
+	(wire
+		(pts
+			(xy 82.55 102.87) (xy 96.52 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d26be998-9b48-4d7f-b238-957fdd1a7934")
 	)
 	(wire
 		(pts
@@ -5281,7 +5291,7 @@
 	)
 	(global_label "spi_nss"
 		(shape output)
-		(at 95.25 102.87 180)
+		(at 82.55 104.14 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5291,7 +5301,7 @@
 		)
 		(uuid "719f856c-9d15-4e83-8d43-02c8bab13b27")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.3101 102.87 0)
+			(at 82.55 114.0799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8241,7 +8251,7 @@
 			)
 		)
 		(property "Value" "CM7V-T1A-32.768KHZ"
-			(at 68.58 102.87 90)
+			(at 61.214 90.678 90)
 			(effects
 				(font
 					(size 1.27 1.27)

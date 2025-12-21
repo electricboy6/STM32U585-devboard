@@ -25,7 +25,7 @@
     "maximum_ram_size": 804864,
     "maximum_size": 2097152,
     "maximum_data_size": 804864,
-    "protocol": "stlink",
+    "protocol": "dfu",
     "protocols": [
       "dfu",
       "serial"

@@ -1,10 +1,10 @@
 #include "pins_arduino.h"
 
-// pin defs
 #ifdef __cplusplus
 extern "C" {
 #endif
 
+// pin defs
 const PinName digitalPin[] = {
     PA_0,
     PA_1,
@@ -17,6 +17,8 @@ const PinName digitalPin[] = {
     PA_8,
     PA_9,
     PA_10,
+    PA_11,
+    PA_12,
     PB_0,
     PB_1,
     PB_3,

@@ -1,0 +1,33 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m0",
+    "extra_flags": "-DSTM32U0 -DSTM32U0xx -DSTM32U073xx",
+    "f_cpu": "56000000L",
+    "framework_extra_flags": {
+      "arduino": "-DPIO_FRAMEWORK_ARDUINO_ENABLE_CDC -DUSBCON -DARDUINO_GENERIC_U073CCUX"
+    },
+    "mcu": "stm32u073ccu6",
+    "product_line": "STM32U585xx",
+    "variant": "STM32U0xx/U073C(8-B-C)(T-U)_U083CC(T-U)"
+  },
+  "frameworks": [
+    "arduino"
+  ],
+  "platforms": [
+    "ststm32"
+  ],
+  "name": "Flight Computer PPU",
+  "upload": {
+    "maximum_ram_size": 40960,
+    "maximum_size": 262144,
+    "maximum_data_size": 40960,
+    "protocol": "dfu",
+    "protocols": [
+      "dfu",
+      "serial"
+    ]
+  },
+  "url": "https://github.com/electricboy6/STM32U585-devboard",
+  "vendor": "tty7"
+}
