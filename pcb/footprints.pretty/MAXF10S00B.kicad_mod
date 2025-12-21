@@ -315,15 +315,15 @@
 		(uuid "10b1b48c-67d8-489c-937e-2ea46dadea38")
 	)
 	(embedded_fonts no)
-	(model "MAX-F10S-00B.stp"
+	(model "${KIPRJMOD}/3dmodels/MAX-M10S-00B.STEP"
 		(offset
-			(xyz 0 0 0.7399999984)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 90 0 0)
+			(xyz 90 -180 -0)
 		)
 	)
 )
