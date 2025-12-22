@@ -17,7 +17,7 @@ namespace interconnect {
         byte data[PACKET_SIZE];
     };
 
-    void sendPacket(packet* data);
+    void sendPacket(const packet* data);
     packet* receivePacket();
     void receivePacket(interconnect::packet* buf);
 }

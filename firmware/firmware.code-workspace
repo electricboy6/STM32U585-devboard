@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "mpu"
+		},
+		{
+			"name": "ppu",
+			"path": "ppu"
+		}
+	],
+	"settings": {}
+}

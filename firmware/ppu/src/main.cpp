@@ -1,5 +1,7 @@
 #include "pins.h"
 #include "drivers/interconnect.h"
+#include "drivers/pyro.h"
+#include "drivers/logger.h"
 
 void hexPrint(byte num);
 void hexPrintln(byte num);

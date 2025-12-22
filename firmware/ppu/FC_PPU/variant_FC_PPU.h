@@ -53,6 +53,12 @@ extern "C" {
 #define PIN_SERIAL_RX 31
 #define PIN_SERIAL_TX 30
 
+// sd defs
+#define SDCARD_MOSI_PIN PB15
+#define SDCARD_MISO_PIN PB14
+#define SDCARD_SCK_PIN PB13
+#define SDCARD_SS_PIN PB12
+
 // hal modules
 #define HAL_I2C_MODULE_DISABLED
 
