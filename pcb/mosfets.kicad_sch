@@ -4255,7 +4255,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e467aea-31d0-4e17-8aaa-3e697a4c6b73")
-		(property "Reference" "J6"
+		(property "Reference" "PYRO1"
 			(at 125.73 22.86 90)
 			(effects
 				(font
@@ -4337,7 +4337,7 @@
 		(instances
 			(project ""
 				(path "/d0cafa98-cc2a-4ab3-8dbc-f937bedf434b/95cda17b-9612-4f29-a3fa-5878468b6ce9"
-					(reference "J6")
+					(reference "PYRO1")
 					(unit 1)
 				)
 			)
@@ -5106,7 +5106,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "841d0894-7ee7-4b2f-84e0-fa2f8f77f3bf")
-		(property "Reference" "J5"
+		(property "Reference" "ARM1"
 			(at 54.61 125.73 0)
 			(effects
 				(font
@@ -5158,7 +5158,7 @@
 		(instances
 			(project ""
 				(path "/d0cafa98-cc2a-4ab3-8dbc-f937bedf434b/95cda17b-9612-4f29-a3fa-5878468b6ce9"
-					(reference "J5")
+					(reference "ARM1")
 					(unit 1)
 				)
 			)

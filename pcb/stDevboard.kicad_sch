@@ -6592,7 +6592,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca8ff7f1-8e43-43a6-abed-abd5814a92b9")
-		(property "Reference" "J3"
+		(property "Reference" "BAT1"
 			(at 48.26 22.8599 0)
 			(effects
 				(font
@@ -6646,7 +6646,7 @@
 		(instances
 			(project ""
 				(path "/d0cafa98-cc2a-4ab3-8dbc-f937bedf434b"
-					(reference "J3")
+					(reference "BAT1")
 					(unit 1)
 				)
 			)

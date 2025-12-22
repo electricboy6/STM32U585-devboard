@@ -5988,7 +5988,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c09648c-ed34-4a92-a8a1-6c16a633ff97")
-		(property "Reference" "J9"
+		(property "Reference" "SERVO1"
 			(at 224.79 76.1999 0)
 			(effects
 				(font
@@ -6048,7 +6048,7 @@
 		(instances
 			(project ""
 				(path "/d0cafa98-cc2a-4ab3-8dbc-f937bedf434b/94fda4c7-40dd-4c5d-acdd-b2f66ff666c2"
-					(reference "J9")
+					(reference "SERVO1")
 					(unit 1)
 				)
 			)
