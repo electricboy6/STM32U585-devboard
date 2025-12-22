@@ -1,5 +1,7 @@
 #include "flash.h"
 
+void sendAddress(uint32_t address);
+
 bool flash::init() {
     // initialize
     pinMode(pins::flash_cs, OUTPUT);
@@ -29,6 +31,97 @@ byte flash::readStatus() {
     return status;
 }
 
+void flash::sleep() {
+    flash::spiCommand(SLEEP);
+
+    flash::deselect();
+}
+void flash::wakeup() {
+    flash::spiCommand(WAKE);
+
+    flash::deselect();
+}
+void flash::reset() {
+    // enable reset
+    flash::spiCommand(RESET_ENABLE);
+    flash::deselect();
+
+    // actually reset
+    flash::spiCommand(RESET_CHIP);
+    flash::deselect();
+}
+
+byte flash::readByte(uint32_t address) {
+    // send command
+    flash::spiCommand(READ_ARRAY);
+    sendAddress(address);
+    // get response
+    byte data = pins::flash.transfer(0);
+
+    flash::deselect();
+    return data;
+}
+void flash::readBytes(uint32_t address, void* buf, uint32_t size) {
+    // send command
+    flash::spiCommand(READ_ARRAY);
+    sendAddress(address);
+    // since we're using the lower latency command, no dummy byte is needed
+    for(uint32_t i = 0; i < size; i++) {
+        ((byte*)buf)[i] = pins::flash.transfer(0);
+    }
+
+    flash::deselect();
+}
+
+void flash::writeByte(uint32_t address, byte data) {
+    // send command
+    flash::spiCommand(PROGRAM_PAGE, true);
+    sendAddress(address);
+    // send data
+    pins::flash.transfer(data);
+
+    flash::deselect();
+}
+void flash::writeBytes(uint32_t address, const void* buf, byte size) {
+    // send command
+    flash::spiCommand(PROGRAM_PAGE, true);
+    sendAddress(address);
+    // send data
+    for(byte i = 0; i < size; i++) {
+        pins::flash.transfer(((byte*)buf)[i]);
+    }
+
+    flash::deselect();
+}
+
+void flash::blockErase4K(uint32_t address) {
+    // send command
+    flash::spiCommand(BLOCK_ERASE_4K, true);
+    sendAddress(address);
+
+    flash::deselect();
+}
+void flash::blockErase32K(uint32_t address) {
+    // send command
+    flash::spiCommand(BLOCK_ERASE_32K, true);
+    sendAddress(address);
+
+    flash::deselect();
+}
+void flash::blockErase64K(uint32_t address) {
+    // send command
+    flash::spiCommand(BLOCK_ERASE_64K, true);
+    sendAddress(address);
+
+    flash::deselect();
+}
+void flash::chipErase() {
+    // send command (this one takes a while)
+    flash::spiCommand(CHIP_ERASE);
+
+    flash::deselect();
+}
+
 uint32_t flash::getJEDEC_ID() {
     // send command
     flash::spiCommand(READ_JEDEC_ID);
@@ -40,7 +133,6 @@ uint32_t flash::getJEDEC_ID() {
     flash::deselect();
     return id;
 }
-
 uint64_t flash::getDeviceID() {
     // send command
     flash::spiCommand(READ_UUID);
@@ -49,18 +141,19 @@ uint64_t flash::getDeviceID() {
     pins::flash.transfer(0);
     pins::flash.transfer(0);
     pins::flash.transfer(0);
-    // get result (idk why it says this overflows, will need to look into it later)
-    uint64_t uuid = pins::flash.transfer(0) << 56;
-    uuid |= pins::flash.transfer(0) << 48;
-    uuid |= pins::flash.transfer(0) << 40;
-    uuid |= pins::flash.transfer(0) << 32;
-    uuid |= pins::flash.transfer(0) << 24;
-    uuid |= pins::flash.transfer(0) << 16;
-    uuid |= pins::flash.transfer(0) << 8;
-    uuid |= pins::flash.transfer(0);
+    // get upper half of result (idk it wouldn't let me do it with just a uint64_t so this is what I'm doing instead)
+    uint32_t uuid_high = pins::flash.transfer(0) << 24;
+    uuid_high |= pins::flash.transfer(0) << 16;
+    uuid_high |= pins::flash.transfer(0) << 8;
+    uuid_high |= pins::flash.transfer(0);
+    // get lower half of result
+    uint32_t uuid_low = pins::flash.transfer(0) << 24;
+    uuid_low |= pins::flash.transfer(0) << 16;
+    uuid_low |= pins::flash.transfer(0) << 8;
+    uuid_low |= pins::flash.transfer(0);
 
     flash::deselect();
-    return uuid;
+    return (((uint64_t)uuid_high) << 32) | ((uint64_t)uuid_low);
 }
 
 inline bool flash::isBusy() {
@@ -70,7 +163,6 @@ inline bool flash::isBusy() {
 inline void flash::spiCommand(byte command, bool isWrite) {
     // make sure write protect is off when we do a write command
     if(isWrite) {
-        // todo: figure out if we can optimize this out
         flash::spiCommand(WRITE_ENABLE);
         flash::deselect();
     }
@@ -88,4 +180,10 @@ inline void flash::select() {
 }
 inline void flash::deselect() {
     digitalWrite(pins::flash_cs, HIGH);
+}
+// DRY sucks but in this case it's valid
+inline void sendAddress(uint32_t address) {
+    pins::flash.transfer(address >> 16);
+    pins::flash.transfer(address >> 8);
+    pins::flash.transfer(address);
 }

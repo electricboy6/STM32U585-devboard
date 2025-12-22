@@ -30,6 +30,12 @@ const byte RESET_CHIP       = 0x99;
 const uint32_t EXPECTED_JEDEC_ID = 0x001F8401; // pg 43 on the datasheet
 
 namespace flash {
+    const uint32_t PAGE_SIZE   = 256;
+    const uint32_t BLOCK_SIZE  = 4096;
+    const uint32_t EFLASH_SIZE = 4 * 1024 * 1024;
+    const uint32_t BLOCK_COUNT = EFLASH_SIZE / BLOCK_SIZE;
+    const uint32_t PAGE_COUNT  = EFLASH_SIZE / PAGE_SIZE;
+
     bool init();
 
     byte readStatus();
@@ -42,8 +48,10 @@ namespace flash {
     void readBytes(uint32_t address, void* buf, uint32_t size);
 
     void writeByte(uint32_t address, byte data);
-    void writeBytes(uint32_t address, const void* buf, uint16_t size);
+    // todo: make it work with misaligned > 256 byte writes - VERY IMPORTANT!
+    void writeBytes(uint32_t address, const void* buf, byte size);
 
+    // WILL stall the flash for a couple seconds
     void chipErase();
     void blockErase4K(uint32_t address);
     void blockErase32K(uint32_t address);
@@ -51,7 +59,7 @@ namespace flash {
 
     void sleep();
     void wakeup();
-    void close();
+    void reset();
 
     void spiCommand(byte command, bool isWrite=false);
     void select();

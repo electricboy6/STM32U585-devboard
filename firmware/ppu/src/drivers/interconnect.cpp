@@ -2,9 +2,8 @@
 #include "assert.h"
 
 namespace interconnect {
-    void sendPacket(packet* data) {
-        // reinterpret casts scare me
-        size_t bytes_sent = pins::interconnectSerial.write(reinterpret_cast<byte*>(data), PACKET_SIZE);
+    void sendPacket(const packet* data) {
+        size_t bytes_sent = pins::interconnectSerial.write((const byte*)data, PACKET_SIZE);
 
         // make sure the packet is actually sent
         pins::interconnectSerial.flush();
@@ -17,7 +16,7 @@ namespace interconnect {
         // wait until we have a packet to receive
         while(!pins::interconnectSerial.available() >= PACKET_SIZE) {}
         // read from serial
-        size_t bytesRead = pins::interconnectSerial.readBytes(reinterpret_cast<byte*>(buf), PACKET_SIZE);
+        size_t bytesRead = pins::interconnectSerial.readBytes((byte*) buf, PACKET_SIZE);
 
         // check result - probably move to error handling in the future
         assert(bytesRead == PACKET_SIZE);

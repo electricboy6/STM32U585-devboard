@@ -2,8 +2,7 @@
 
 #include <SD.h>
 #include "pins.h"
-#include "flash/flash.h"
-#include "flash/lfs/lfs.h"
+#include "flash/flash_lfs.h"
 
 namespace logger {
     inline const char* filename = "log.txt";
