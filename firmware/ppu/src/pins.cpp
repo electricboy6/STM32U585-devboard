@@ -1,7 +1,7 @@
 #include "pins.h"
 
 void pins::init() {
-    SerialUSB.begin(12000000); // 12 mbaud
+    SerialUSB.begin(1000000); // 1 mbaud
     while(!SerialUSB.available()) {}
 
     interconnectSerial.begin(250000, SERIAL_8E1); // 250 kbaud, even parity
@@ -19,4 +19,24 @@ void pins::init() {
     
     // 12 bit analog reads
     analogReadResolution(12);
+
+    // all pinModes
+    pinMode(pins::vbat, INPUT_ANALOG);
+
+    pinMode(pins::flash_cs, OUTPUT);
+
+    pinMode(pins::telem_cs, OUTPUT);
+    pinMode(pins::telem_busy, INPUT_FLOATING);
+    pinMode(pins::telem_rst, OUTPUT);
+
+    pinMode(pins::arm, OUTPUT);
+    pinMode(pins::c0_fire, OUTPUT);
+    pinMode(pins::c1_fire, OUTPUT);
+    pinMode(pins::c2_fire, OUTPUT);
+    pinMode(pins::c3_fire, OUTPUT);
+    pinMode(pins::c4_fire, OUTPUT);
+    pinMode(pins::c5_fire, OUTPUT);
+    pinMode(pins::cont_test, INPUT_ANALOG);
+
+    pinMode(pins::piezo, OUTPUT);
 }

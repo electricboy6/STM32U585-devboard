@@ -4,7 +4,6 @@ void sendAddress(uint32_t address);
 
 bool flash::init() {
     // initialize
-    pinMode(pins::flash_cs, OUTPUT);
     flash::deselect();
 
     // make sure the chip isn't in a bad state

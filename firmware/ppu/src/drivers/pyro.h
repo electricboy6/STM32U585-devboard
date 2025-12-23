@@ -3,6 +3,7 @@
 #include "pins.h"
 
 namespace pyro {
+    static bool armed = false;
     const byte firePins[] = {
         pins::c0_fire,
         pins::c1_fire,

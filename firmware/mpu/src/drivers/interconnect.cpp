@@ -12,6 +12,9 @@ namespace interconnect {
         // probably do real error handling in the future
         assert(bytes_sent == PACKET_SIZE);
     }
+    void sendPacket(const byte data[PACKET_SIZE + 1]) {
+        sendPacket((const packet*) data);
+    }
 
     void receivePacket(packet* buf) {
         // wait until we have a packet to receive
@@ -21,6 +24,9 @@ namespace interconnect {
 
         // check result - probably move to error handling in the future
         assert(bytesRead == PACKET_SIZE);
+    }
+    void receivePacket(byte buf[PACKET_SIZE + 1]) {
+        receivePacket((packet*) buf);
     }
 
     packet* receivePacket() {

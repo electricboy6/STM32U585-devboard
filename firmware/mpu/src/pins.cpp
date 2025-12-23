@@ -1,7 +1,7 @@
 #include "pins.h"
 
 void pins::init() {
-    SerialUSB.begin(12000000); // 12 mbaud
+    SerialUSB.begin(1000000); // 1 mbaud
     while(!SerialUSB.available()) {}
 
     interconnectSerial.begin(250000, SERIAL_8E1); // 250 kbaud, even parity

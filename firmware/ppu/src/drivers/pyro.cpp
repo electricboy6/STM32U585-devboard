@@ -3,14 +3,7 @@
 const uint32_t GOOD_THRESHOLD = (uint32_t)((0.1 * ANALOG_STEPS) / ANALOG_REF); // volts for closed circuit, theoretical 0v (0.65v open circuit)
 
 void pyro::init() {
-    pinMode(pins::arm, OUTPUT);
-    for(byte i = 0; i < sizeof(pyro::firePins) / sizeof(byte); i++) {
-        pinMode(pyro::firePins[i], OUTPUT);
-    }
-
     pyro::disarm();
-
-    pinMode(pins::cont_test, INPUT_ANALOG);
 }
 
 bool pyro::contTest(byte channel) {
@@ -32,12 +25,14 @@ byte pyro::contTest() {
 
 void pyro::arm() {
     digitalWrite(pins::arm, HIGH);
+    pyro::armed = true;
 }
 void pyro::disarm() {
     digitalWrite(pins::arm, LOW);
     for(byte i = 0; i < sizeof(pyro::firePins) / sizeof(byte); i++) {
         pyro::stopFire(i);
     }
+    pyro::armed = false;
 }
 
 void pyro::fire(byte channel) {

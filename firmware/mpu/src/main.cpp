@@ -1,4 +1,3 @@
-#include "pins.h"
 #include "drivers/interconnect.h"
 
 void hexPrint(byte num);
@@ -6,13 +5,13 @@ void hexPrintln(byte num);
 
 byte testPacket[] = {
     0x00,
+    0xFF,
+    0x88,
+    0x44,
+    0xAA,
     0x01,
-    0x02,
-    0x03,
-    0x04,
-    0x05,
-    0x06,
-    0x07
+    0xA0,
+    0x10
 };
 byte* receivedPacket;
 
@@ -69,10 +68,12 @@ void setup() {
     } else {
         Serial.println(numDevices + " found on i2c2 - not what we expected, check the soldering");
     }
+
+    delay(5000);
     Serial.println("Checking interconnect...");
 
-    interconnect::sendPacket(reinterpret_cast<interconnect::packet*>(&testPacket));
-    receivedPacket = reinterpret_cast<byte*>(interconnect::receivePacket());
+    interconnect::sendPacket((interconnect::packet*)(&testPacket));
+    receivedPacket = (byte*)interconnect::receivePacket();
 
     // check each byte
     bool interconnectGood = true;

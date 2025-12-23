@@ -2,20 +2,24 @@
 
 void logger::init() {
     if(!flash::init()) {
-        Serial.println("Flash init failed! (MAKE SURE FOR FLIGHT FIRMWARE TO DISABLE STATE INCREASE!)");
+        Serial.println("flash NOT OK");
     } else {
-        Serial.println("Flash OK\nDevice id: " + flash::getJEDEC_ID());
+        Serial.println("flash OK\nDevice id: " + flash::getJEDEC_ID());
     }
     flash_lfs::mount(true);
 }
 
 void logger::initSD() {
     if(!SD.begin()) {
-        Serial.println("SD library init failed! Continuing with flash only.");
+        Serial.println("sd NOT OK");
     }
     file = SD.open(logger::filename, FILE_WRITE);
+    Serial.println("sd OK");
+}
+void logger::endSD() {
+    SD.end();
 }
 
-void logger::writeSD(const byte* data, size_t size) {
-    file.write(data, size);
+void logger::writeSD(const void* data, size_t size) {
+    file.write((const byte*)data, size);
 }

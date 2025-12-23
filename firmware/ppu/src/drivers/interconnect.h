@@ -18,6 +18,8 @@ namespace interconnect {
     };
 
     void sendPacket(const packet* data);
+    void sendPacket(const byte data[PACKET_SIZE + 1]);
     packet* receivePacket();
     void receivePacket(interconnect::packet* buf);
+    void receivePacket(byte buf[PACKET_SIZE + 1]);
 }

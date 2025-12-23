@@ -22,13 +22,13 @@ namespace pins {
     const byte c4_fire      = PB10;
     const byte c5_fire      = PB11;
 
+    const byte telem_cs     = PB0;
     const byte telem_busy   = PA14;
     const byte telem_rst    = PA15;
 
     const byte piezo        = PA0;
 
     const byte flash_cs     = PB2;
-    const byte telem_cs     = PB0;
 
 
     // mpu
