@@ -5,49 +5,31 @@
 	(uuid "7f762629-455f-4fe1-ae47-2df4634996d2")
 	(paper "A4")
 	(lib_symbols
-		(symbol "73412-0114:73412-0114"
+		(symbol "Connector:Conn_Coaxial"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 26.67 17.78 0)
+				(at 0.254 3.048 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Value" "73412-0114"
-				(at 26.67 15.24 0)
+			(property "Value" "Conn_Coaxial"
+				(at 2.921 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Footprint" "73412-0110"
-				(at 26.67 -84.76 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.molex.com/webdocs/datasheets/pdf/en-us//0734120114_RF_COAX_CONNECTORS.pdf"
-				(at 26.67 -184.76 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Micro Coaxial Receptacle,Vertical Molex Female Surface Mount Coaxial Socket, Solder Termination"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -56,108 +38,108 @@
 					(hide yes)
 				)
 			)
-			(property "Height" ""
-				(at 26.67 -384.76 0)
+			(property "Datasheet" "~"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "538-73412-0114"
-				(at 26.67 -484.76 0)
+			(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/73412-0114?qs=TpUtqFO9vU%252Ba9r2SfxH4iw%3D%3D"
-				(at 26.67 -584.76 0)
+			(property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "Molex"
-				(at 26.67 -684.76 0)
+			(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "73412-0114"
-				(at 26.67 -784.76 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+			(symbol "Conn_Coaxial_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -0.508 0)
 					)
-					(justify left top)
-					(hide yes)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
 				)
-			)
-			(symbol "73412-0114_1_1"
-				(rectangle
-					(start 5.08 12.7)
-					(end 25.4 -12.7)
+				(arc
+					(start 1.778 0)
+					(mid 0.222 -1.8079)
+					(end -1.778 -0.508)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "GND_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+				(arc
+					(start -1.778 0.508)
+					(mid 0.2221 1.8084)
+					(end 1.778 0)
+					(stroke
+						(width 0.254)
+						(type default)
 					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+					(fill
+						(type none)
 					)
 				)
-				(pin passive line
-					(at 15.24 17.78 270)
-					(length 5.08)
-					(name "GND_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0.2032)
+						(type default)
 					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+					(fill
+						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Conn_Coaxial_1_1"
 				(pin passive line
-					(at 15.24 -17.78 90)
-					(length 5.08)
-					(name "SIGNAL"
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "In"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -173,16 +155,16 @@
 					)
 				)
 				(pin passive line
-					(at 30.48 0 180)
-					(length 5.08)
-					(name "GND_3"
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "Ext"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2078,12 +2060,6 @@
 		(uuid "9363ae81-8099-48ee-9027-5b7a748afe10")
 	)
 	(junction
-		(at 257.81 153.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "97f3d643-47ea-499f-a5eb-cf4804556a00")
-	)
-	(junction
 		(at 102.87 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2120,18 +2096,6 @@
 		(uuid "c1855322-80ff-4d0e-b2ef-d3186b2e621e")
 	)
 	(junction
-		(at 87.63 177.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c1b0fa8e-209a-4f05-ac36-5014dc705f47")
-	)
-	(junction
-		(at 273.05 153.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c21f05a5-155f-4110-be43-d5d9e390104d")
-	)
-	(junction
 		(at 88.9 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2142,12 +2106,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cb331a21-da94-4efb-83b7-51256945b91f")
-	)
-	(junction
-		(at 102.87 177.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cfbcda3d-e9d3-4463-af3d-b74f6c503e94")
 	)
 	(junction
 		(at 144.78 64.77)
@@ -2391,23 +2349,13 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 99.06) (xy 229.87 99.06)
+			(xy 229.87 99.06) (xy 232.41 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1db78c89-5116-4c2b-9c5c-c77d3ef25c38")
-	)
-	(wire
-		(pts
-			(xy 257.81 99.06) (xy 257.81 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f4786fe-bcc4-4acd-9eac-a96de89620bb")
+		(uuid "1fe50dd5-62d2-4239-810e-915659aaffa6")
 	)
 	(wire
 		(pts
@@ -2448,6 +2396,16 @@
 			(type default)
 		)
 		(uuid "251a77f7-16a4-4820-be7d-d91f333e0ccc")
+	)
+	(wire
+		(pts
+			(xy 102.87 142.24) (xy 102.87 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "262508ca-2c6a-40aa-a5da-e0bd75c55d84")
 	)
 	(wire
 		(pts
@@ -2531,16 +2489,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 160.02) (xy 87.63 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "368d41e9-26e4-4a4c-be2b-0940e4e2d039")
-	)
-	(wire
-		(pts
 			(xy 92.71 123.19) (xy 92.71 133.35)
 		)
 		(stroke
@@ -2608,16 +2556,6 @@
 			(type default)
 		)
 		(uuid "481d2dd1-91ba-4fe9-a406-29181c8982b3")
-	)
-	(wire
-		(pts
-			(xy 87.63 177.8) (xy 102.87 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "493af833-591a-4ce3-9f15-16132dd9e2df")
 	)
 	(wire
 		(pts
@@ -2841,13 +2779,13 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 153.67) (xy 273.05 153.67)
+			(xy 237.49 104.14) (xy 237.49 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7c60cc42-fb3f-42ec-9c54-1c57a8bff389")
+		(uuid "79863657-f559-4e8a-a9eb-eca56c1afe2d")
 	)
 	(wire
 		(pts
@@ -2938,16 +2876,6 @@
 			(type default)
 		)
 		(uuid "888c6841-1cce-4893-96da-d7ebcb5c0acc")
-	)
-	(wire
-		(pts
-			(xy 242.57 135.89) (xy 242.57 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89e1af2f-9299-4ae9-960f-c52e81e163ab")
 	)
 	(wire
 		(pts
@@ -3121,16 +3049,6 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 153.67) (xy 273.05 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad250375-890d-4a80-903a-b977adc3d358")
-	)
-	(wire
-		(pts
 			(xy 102.87 132.08) (xy 102.87 133.35)
 		)
 		(stroke
@@ -3218,6 +3136,16 @@
 			(type default)
 		)
 		(uuid "bab36be4-346e-4d11-8f0f-4db91f70301e")
+	)
+	(wire
+		(pts
+			(xy 109.22 147.32) (xy 109.22 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd541972-1daa-451b-8033-ffc91b26fc4d")
 	)
 	(wire
 		(pts
@@ -3331,26 +3259,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 142.24) (xy 102.87 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc4ff3b7-3e03-45a9-a94a-952ecfc62b97")
-	)
-	(wire
-		(pts
-			(xy 102.87 177.8) (xy 118.11 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cde40e34-9bce-4d1d-8459-b2129e4bba92")
-	)
-	(wire
-		(pts
 			(xy 205.74 78.74) (xy 205.74 80.01)
 		)
 		(stroke
@@ -3398,6 +3306,16 @@
 			(type default)
 		)
 		(uuid "d5429b3f-eb34-4411-9486-9dd128c38571")
+	)
+	(wire
+		(pts
+			(xy 104.14 142.24) (xy 102.87 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d573ca66-3339-4661-bb85-e75b8ddde12c")
 	)
 	(wire
 		(pts
@@ -3541,16 +3459,6 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 153.67) (xy 257.81 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f17ce99d-1337-4484-8a8a-7f8a548a7677")
-	)
-	(wire
-		(pts
 			(xy 121.92 87.63) (xy 121.92 86.36)
 		)
 		(stroke
@@ -3578,16 +3486,6 @@
 			(type default)
 		)
 		(uuid "fc1d37d2-3cc1-458b-bd5c-701f94dcba4d")
-	)
-	(wire
-		(pts
-			(xy 118.11 177.8) (xy 118.11 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc7f6b84-a6c8-425e-a761-951b45a89dc3")
 	)
 	(wire
 		(pts
@@ -4172,6 +4070,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 109.22 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b8ffe27-c994-4d8a-99cf-c5713782d7fb")
+		(property "Reference" "J5"
+			(at 113.03 141.2631 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_Coaxial"
+			(at 113.03 143.8031 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
+			(at 109.22 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 109.22 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eea49aba-b33a-434c-9cb5-f17ed12de6b7")
+		)
+		(pin "2"
+			(uuid "fbd86e5c-db14-42bf-875a-c42773fa8be8")
+		)
+		(instances
+			(project "stDevboard"
+				(path "/d0cafa98-cc2a-4ab3-8dbc-f937bedf434b/370f9b44-a297-4225-a26d-62410af8a696"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L")
 		(at 102.87 97.79 0)
 		(unit 1)
@@ -4622,132 +4590,6 @@
 			(project ""
 				(path "/d0cafa98-cc2a-4ab3-8dbc-f937bedf434b/370f9b44-a297-4225-a26d-62410af8a696"
 					(reference "#PWR077")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "73412-0114:73412-0114")
-		(at 273.05 135.89 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "44f4637e-767d-4198-a91c-7e17b6021a6b")
-		(property "Reference" "J8"
-			(at 275.59 130.4446 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "73412-0114"
-			(at 275.59 132.9846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:73412-0110"
-			(at 246.38 51.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.molex.com/webdocs/datasheets/pdf/en-us//0734120114_RF_COAX_CONNECTORS.pdf"
-			(at 246.38 -48.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Micro Coaxial Receptacle,Vertical Molex Female Surface Mount Coaxial Socket, Solder Termination"
-			(at 273.05 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 246.38 -248.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "538-73412-0114"
-			(at 246.38 -348.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/73412-0114?qs=TpUtqFO9vU%252Ba9r2SfxH4iw%3D%3D"
-			(at 246.38 -448.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Molex"
-			(at 246.38 -548.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "73412-0114"
-			(at 246.38 -648.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "201792e0-37ca-47cf-ad50-3558cc233c07")
-		)
-		(pin "4"
-			(uuid "ac37682f-6bd1-4e69-a82a-9eade3d158a8")
-		)
-		(pin "3"
-			(uuid "f273df17-44d5-441b-aebe-d8f090ff99d6")
-		)
-		(pin "2"
-			(uuid "d54b016d-11ec-4f20-8726-4dfa74ad2620")
-		)
-		(instances
-			(project "stDevboard"
-				(path "/d0cafa98-cc2a-4ab3-8dbc-f937bedf434b/370f9b44-a297-4225-a26d-62410af8a696"
-					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -5498,16 +5340,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 273.05 153.67 0)
+		(at 237.49 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9ff7fea6-25f2-47c3-81e1-376cfb7b4ef5")
+		(uuid "a25433d1-d205-42ab-aad1-f553bec45231")
 		(property "Reference" "#PWR083"
-			(at 273.05 160.02 0)
+			(at 237.49 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5516,7 +5358,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 273.05 158.75 0)
+			(at 237.49 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5524,7 +5366,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 273.05 153.67 0)
+			(at 237.49 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5533,7 +5375,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 273.05 153.67 0)
+			(at 237.49 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5542,7 +5384,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 273.05 153.67 0)
+			(at 237.49 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5551,7 +5393,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "06c68cec-e589-4334-bf51-d7622db75295")
+			(uuid "900cb445-abfd-4843-a910-a5a0a31da696")
 		)
 		(instances
 			(project ""
@@ -6418,6 +6260,142 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 109.22 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7fe34ac-bc90-4c61-b8ec-f92622647343")
+		(property "Reference" "#PWR070"
+			(at 109.22 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 109.22 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 109.22 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0d327ce-8ebe-4a2c-b702-d37df0e7c414")
+		)
+		(instances
+			(project "stDevboard"
+				(path "/d0cafa98-cc2a-4ab3-8dbc-f937bedf434b/370f9b44-a297-4225-a26d-62410af8a696"
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 237.49 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8b23af3-620d-4863-8de2-fcd926a30ca5")
+		(property "Reference" "J3"
+			(at 241.3 98.0831 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_Coaxial"
+			(at 241.3 100.6231 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
+			(at 237.49 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 237.49 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "900f2c79-6151-4c77-a4fe-9a90597d5253")
+		)
+		(pin "2"
+			(uuid "702bce38-6bdc-4305-831c-0240412fdcd4")
+		)
+		(instances
+			(project ""
+				(path "/d0cafa98-cc2a-4ab3-8dbc-f937bedf434b/370f9b44-a297-4225-a26d-62410af8a696"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 109.22 116.84 0)
 		(unit 1)
@@ -6782,72 +6760,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 87.63 177.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f0eec722-5023-4522-80cd-6740d8765b4f")
-		(property "Reference" "#PWR070"
-			(at 87.63 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 87.63 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 87.63 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 87.63 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bb22eb9d-f233-43f3-8e08-0098ea75f3b6")
-		)
-		(instances
-			(project ""
-				(path "/d0cafa98-cc2a-4ab3-8dbc-f937bedf434b/370f9b44-a297-4225-a26d-62410af8a696"
-					(reference "#PWR070")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 127 92.71 90)
 		(unit 1)
@@ -6915,132 +6827,6 @@
 		)
 	)
 	(symbol
-		(lib_id "73412-0114:73412-0114")
-		(at 118.11 160.02 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f74fc19d-24a7-490b-88ab-8c940c1dc711")
-		(property "Reference" "J7"
-			(at 120.65 154.5746 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "73412-0114"
-			(at 120.65 157.1146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:73412-0110"
-			(at 91.44 75.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.molex.com/webdocs/datasheets/pdf/en-us//0734120114_RF_COAX_CONNECTORS.pdf"
-			(at 91.44 -24.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Micro Coaxial Receptacle,Vertical Molex Female Surface Mount Coaxial Socket, Solder Termination"
-			(at 118.11 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 91.44 -224.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "538-73412-0114"
-			(at 91.44 -324.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/73412-0114?qs=TpUtqFO9vU%252Ba9r2SfxH4iw%3D%3D"
-			(at 91.44 -424.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Molex"
-			(at 91.44 -524.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "73412-0114"
-			(at 91.44 -624.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ed0c808c-9dcd-427b-8b1a-5a6dece680f7")
-		)
-		(pin "4"
-			(uuid "7fec7702-5203-45df-9c5b-5069db97233b")
-		)
-		(pin "3"
-			(uuid "fde1d221-6b60-45ed-b819-8a6737f3be5a")
-		)
-		(pin "2"
-			(uuid "1a69be4e-1b28-49cd-9a4a-ae9295b34606")
-		)
-		(instances
-			(project ""
-				(path "/d0cafa98-cc2a-4ab3-8dbc-f937bedf434b/370f9b44-a297-4225-a26d-62410af8a696"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L")
 		(at 135.89 59.69 90)
 		(unit 1)
@@ -7065,7 +6851,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 135.89 59.69 0)
 			(effects
 				(font

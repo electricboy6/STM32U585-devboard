@@ -4313,7 +4313,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 165.1 46.99 0)
 			(effects
 				(font
@@ -6610,7 +6610,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
+		(property "Footprint" "footprints:TBC05021GG"
 			(at 45.72 22.86 0)
 			(effects
 				(font

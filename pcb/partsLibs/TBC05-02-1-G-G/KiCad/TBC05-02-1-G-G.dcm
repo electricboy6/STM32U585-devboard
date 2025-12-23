@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TBC05-02-1-G-G
+D Fixed Terminal Blocks 2w, 2.54mm Pitch Term-Block, Side Entry, TH, Rising Clamp
+K
+F https://www.mouser.de/datasheet/3/1507/1/tbc05.pdf
+$ENDCMP
+#
+#End Doc Library

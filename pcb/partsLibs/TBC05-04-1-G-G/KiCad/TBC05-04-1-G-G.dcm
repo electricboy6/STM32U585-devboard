@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TBC05-04-1-G-G
+D Fixed Terminal Blocks 4w, 2.54mm Pitch Term-Block, Side Entry, TH, Rising Clamp
+K
+F https://gct.co/connector/tbc05
+$ENDCMP
+#
+#End Doc Library

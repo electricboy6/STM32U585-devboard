@@ -1,0 +1,23 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model TBC05-02-1-G-G
+#/20507462/1794276/2.50/2/3/Connector
+DEF TBC05-02-1-G-G J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "TBC05-02-1-G-G" 650 200 50 H V L CNN
+F2 "TBC05021GG" 650 100 50 H I L CNN
+F3 "https://www.mouser.de/datasheet/3/1507/1/tbc05.pdf" 650 0 50 H I L CNN
+F4 "Fixed Terminal Blocks 2w, 2.54mm Pitch Term-Block, Side Entry, TH, Rising Clamp" 650 -100 50 H I L CNN "Description"
+F5 "8.8" 650 -200 50 H I L CNN "Height"
+F6 "640-TBC05-02-1-G-G" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/GCT/TBC05-02-1-G-G?qs=bN4HulGPsrHLrim%252BCGLcjw%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "GCT (GLOBAL CONNECTOR TECHNOLOGY)" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "TBC05-02-1-G-G" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -188,9 +188,10 @@
       ],
       "track_widths": [
         0.0,
-        0.1524,
         0.211549,
+        0.28943,
         0.3048,
+        0.425096,
         0.5,
         0.75
       ],
@@ -666,7 +667,7 @@
           "show": false
         }
       ],
-      "filter_string": "C",
+      "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": false,
       "name": "",
