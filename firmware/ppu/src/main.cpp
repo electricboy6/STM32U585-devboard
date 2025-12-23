@@ -7,7 +7,14 @@ void hexPrint(byte num);
 void hexPrintln(byte num);
 
 void setup() {
-    
+    logger::init();
+    logger::initSD();
+    lfs_file_t file;
+    flash_lfs::open(&file, "test.txt", LFS_O_CREAT | LFS_O_RDWR);
+    const char* test = "lfs is working!";
+    flash_lfs::write(&file, test, sizeof(test));
+    flash_lfs::close(&file);
+    flash_lfs::unmount();
 }
 
 void loop() {

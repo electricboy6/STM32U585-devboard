@@ -6,6 +6,7 @@ void logger::init() {
     } else {
         Serial.println("Flash OK\nDevice id: " + flash::getJEDEC_ID());
     }
+    flash_lfs::mount(true);
 }
 
 void logger::initSD() {
