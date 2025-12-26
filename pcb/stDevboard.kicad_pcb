@@ -2202,7 +2202,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R41"
-			(at 2.175 0 180)
+			(at -0.625 -2.4 180)
 			(layer "F.SilkS")
 			(uuid "ffb89d86-ede5-4a91-b1f1-96be60e3b5db")
 			(effects
@@ -5983,7 +5983,7 @@
 		(descr "Inductor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "inductor")
 		(property "Reference" "L9"
-			(at 0.485 -1.17 0)
+			(at 1 1.5 0)
 			(layer "F.SilkS")
 			(uuid "997e5d18-32ee-4f5f-9178-1a18bff68693")
 			(effects
@@ -6733,7 +6733,7 @@
 		(descr "TBC05-04-1-G-G-2")
 		(tags "Connector")
 		(property "Reference" "SERVO1"
-			(at -2.72 0.5 180)
+			(at -2.92 0.5 180)
 			(layer "F.SilkS")
 			(uuid "05a56917-0980-43f2-a0b2-88466fa4dffe")
 			(effects
@@ -8431,7 +8431,7 @@
 		(descr "Hirose U.FL Coaxial https://www.hirose.com/product/en/products/U.FL/U.FL-R-SMT-1%2810%29/")
 		(tags "Hirose U.FL Coaxial")
 		(property "Reference" "J3"
-			(at 0.475 -3.2 90)
+			(at 0.475 3.7 180)
 			(layer "F.SilkS")
 			(uuid "23dd5b49-c500-4c89-815e-7db2bf2f7e57")
 			(effects
@@ -12356,7 +12356,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C59"
-			(at 0.42 -1.1 0)
+			(at 2.52 0.1 0)
 			(layer "F.SilkS")
 			(uuid "c7de1ebf-d2ba-453d-b047-3f9b9e233396")
 			(effects
@@ -17833,7 +17833,7 @@
 		(descr "Hirose U.FL Coaxial https://www.hirose.com/product/en/products/U.FL/U.FL-R-SMT-1%2810%29/")
 		(tags "Hirose U.FL Coaxial")
 		(property "Reference" "J5"
-			(at 0.475 -3.2 90)
+			(at 0.475 -3.6 180)
 			(layer "F.SilkS")
 			(uuid "8fab8ee9-2b35-4fc2-a657-cab68addd7a3")
 			(effects
@@ -20150,7 +20150,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C41"
-			(at -1.217057 -0.565685 0)
+			(at -1.358478 -0.424264 0)
 			(layer "F.SilkS")
 			(uuid "031f68dc-a093-4dff-905c-ed83e5fd86e8")
 			(effects
@@ -32901,7 +32901,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R24"
-			(at 0 -1.17 0)
+			(at 0.09 -1.17 0)
 			(layer "F.SilkS")
 			(uuid "761034d0-aeb2-4dec-82e3-a574b2e2c89b")
 			(effects
@@ -38141,7 +38141,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C1"
-			(at 2.475 0 90)
+			(at -2.325 0.1 90)
 			(layer "B.SilkS")
 			(uuid "12ea97b1-4ee5-4270-88ff-1ea8647bafa9")
 			(effects
@@ -38345,7 +38345,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R17"
-			(at 0.11 2 0)
+			(at -0.29 -1.9 0)
 			(layer "B.SilkS")
 			(uuid "41502d61-22c2-4c55-b9cd-b9adc2971a68")
 			(effects
