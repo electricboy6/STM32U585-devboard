@@ -290,15 +290,15 @@
 		(uuid "8172fc21-b12f-4ac8-adcd-59ed4325972b")
 	)
 	(embedded_fonts no)
-	(model "TBC05-04-1-G-G.stp"
+	(model "${KIPRJMOD}/3dmodels/tbc05-04-1-g-g.stp"
 		(offset
-			(xyz 0 0 0)
+			(xyz 9 0.25 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 -0 -180)
 		)
 	)
 )
