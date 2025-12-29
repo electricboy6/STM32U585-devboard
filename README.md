@@ -1,4 +1,5 @@
 # IRIS (Integrated Rocket Intelligence System)
+![image](assets/render.png)
 ## What is it
 IRIS is an advanced flight computer designed for controlling guided model rockets. It is specifiacally designed for aerodynamic control, but is also capable of thrust vector control.
 ## Interfaces
