@@ -1,14 +1,14 @@
-Item,Description,Link,Quantity,Unit Price,Subtotal,Remarks,subtotal,Mouser Cart,Digikey Cart,LCSC Cart,JLC cart
-STM32U585CIU6Q,Main microcontroller,https://www.mouser.com/ProductDetail/STMicroelectronics/STM32U585CIU6Q?qs=DRkmTr78QARvYPKFvAP2GQ%3D%3D,2,$9.06,$18.12,,$143.21,$89.52,$51.34,$38.44,$42.85
-STM32U073CCU6,Peripheral microcontroller,https://www.lcsc.com/product-detail/C22455185.html?s_z=n_STM32U073CCU6,2,$2.63,$5.26,,tariffs,,real total,,
-AT25SF081B,1mb External Flash,https://www.mouser.com/ProductDetail/Renesas-Dialog/AT25SF081B-SSHB-B?qs=IS%252B4QmGtzzo17GS9scB1nw%3D%3D,2,$0.35,$0.70,original planned chip is https://www.mouser.com/ProductDetail/Renesas-Dialog/AT25SF041B-SSHB-B?qs=IS%252B4QmGtzzpXYmyz2tD79g%3D%3D,$15.72,,$222.15,,
-104031-0811,Micro SD Connector,https://www.lcsc.com/product-detail/C585350.html?s_z=n_104031-0811,2,$0.76,$1.52,,subtotal w/tax and tarrifs,,totals are for 2 board's worth of components,,
-ECS-160-8-36B2-CKM-TR,16mhz HSE Oscillator,https://www.mouser.com/ProductDetail/ECS/ECS-160-8-36B2-CKM-TR?qs=QNEnbhJQKvaIQPndV3OLHg%3D%3D,2,$0.29,$0.58,,$171.81,,,,
-CM7V-T1A-32.768kHz-9pF-10PPM-TA-QC,32.768 khz LSE Oscillator,https://www.mouser.com/ProductDetail/Micro-Crystal/CM7V-T1A-32.768kHz-9pF-10PPM-TA-QC?qs=7bTaA%2FLYtSbcWt4HcA5rHA%3D%3D,4,$0.48,$1.92,,shipping,,,,
-IRFR9014PBF,P channel FET,https://www.lcsc.com/product-detail/C727638.html?s_z=n_IRFR9014PBF,4,$0.71,$2.84,,$9.98,,,,
-MMBT2222A-TP,NPN BJT,https://www.mouser.com/ProductDetail/Micro-Commercial-Components-MCC/MMBT2222A-TP?qs=KFo7JewZbUE%252BJc5W0eD55w%3D%3D,6,$0.10,$0.60,,calculated total,,,,
-DMN3404L-7,N channel FET,https://www.lcsc.com/product-detail/C155257.html?s_z=n_DMN3404L-7,15,$0.08,$1.23,Only need 12,$181.79,,,,
-MMC5983MA,Magnetometer,https://www.mouser.com/ProductDetail/MEMSIC/MMC5983MA?qs=B6kkDfuK7%2FD5qasHMdEt2g%3D%3D,2,$2.79,$5.58,,,,,,
+Item,Description,Link,Quantity,Unit Price,Item Subtotal,Remarks,,,,,
+STM32U585CIU6Q,Main microcontroller,https://www.mouser.com/ProductDetail/STMicroelectronics/STM32U585CIU6Q?qs=DRkmTr78QARvYPKFvAP2GQ%3D%3D,2,$9.06,$18.12,,Estimated Subtotal,Mouser Cart,Digikey Cart,LCSC Cart,JLC Cart
+STM32U073CCU6,Peripheral microcontroller,https://www.lcsc.com/product-detail/C22455185.html?s_z=n_STM32U073CCU6,2,$2.63,$5.26,,$143.21,$89.52,$51.34,$38.44,$42.85
+AT25SF081B,1mb External Flash,https://www.mouser.com/ProductDetail/Renesas-Dialog/AT25SF081B-SSHB-B?qs=IS%252B4QmGtzzo17GS9scB1nw%3D%3D,2,$0.35,$0.70,original planned chip is https://www.mouser.com/ProductDetail/Renesas-Dialog/AT25SF041B-SSHB-B?qs=IS%252B4QmGtzzpXYmyz2tD79g%3D%3D,Estimated Tariffs,,Component Total,,
+104031-0811,Micro SD Connector,https://www.lcsc.com/product-detail/C585350.html?s_z=n_104031-0811,2,$0.76,$1.52,,$15.72,,$179.30,,
+ECS-160-8-36B2-CKM-TR,16mhz HSE Oscillator,https://www.mouser.com/ProductDetail/ECS/ECS-160-8-36B2-CKM-TR?qs=QNEnbhJQKvaIQPndV3OLHg%3D%3D,2,$0.29,$0.58,,Estimated Subtotal w/tax and tarrifs,,Total,,
+CM7V-T1A-32.768kHz-9pF-10PPM-TA-QC,32.768 khz LSE Oscillator,https://www.mouser.com/ProductDetail/Micro-Crystal/CM7V-T1A-32.768kHz-9pF-10PPM-TA-QC?qs=7bTaA%2FLYtSbcWt4HcA5rHA%3D%3D,4,$0.48,$1.92,,$171.81,,$222.15,,
+IRFR9014PBF,P channel FET,https://www.lcsc.com/product-detail/C727638.html?s_z=n_IRFR9014PBF,4,$0.71,$2.84,,Shipping,,totals are for 2 board's worth of components,,
+MMBT2222A-TP,NPN BJT,https://www.mouser.com/ProductDetail/Micro-Commercial-Components-MCC/MMBT2222A-TP?qs=KFo7JewZbUE%252BJc5W0eD55w%3D%3D,6,$0.10,$0.60,,$9.98,,,,
+DMN3404L-7,N channel FET,https://www.lcsc.com/product-detail/C155257.html?s_z=n_DMN3404L-7,15,$0.08,$1.23,Only need 12,Calculated Component Total,,,,
+MMC5983MA,Magnetometer,https://www.mouser.com/ProductDetail/MEMSIC/MMC5983MA?qs=B6kkDfuK7%2FD5qasHMdEt2g%3D%3D,2,$2.79,$5.58,,$181.79,,,,
 H3LIS331DLTR,High G Accelerometer,https://www.mouser.com/ProductDetail/STMicroelectronics/H3LIS331DLTR?qs=TAo1I7FhABsAZFqkqNUSRA%3D%3D,0,$10.24,$0.00,not populating,,,,,
 MAX-M10S-00B,GPS module,https://www.lcsc.com/product-detail/C4153167.html?s_z=n_MAX-M10S-00B,2,$10.26,$20.52,,,,,,
 PS1240P02BT,Piezo,https://www.lcsc.com/product-detail/C76871.html?s_z=n_PS1240P02BT,2,$0.16,$0.32,,,,,,
