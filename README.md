@@ -19,8 +19,8 @@ IRIS uses a very comprehensive suite of sensors, including some quite high quali
 Everything that I chose was chosen for safety or so that IRIS could actually fulfil its intended purpose.
 #### About  
 This project was made for blueprint, an event ran by Hack Club. Hack Club is a global nonprofit that runs events like this, where teenagers learn valuable skills, like hardware design and programming. You can learn more about my project on the blueprint site, at [my project page](https://blueprint.hackclub.com/projects/486).  
-  
-If reviewers have any questions, just dm me, there are reasons for all of the overkill stuff (already talked about with Kai, see [this thread](https://hackclub.slack.com/archives/C083S537USC/p1766533095590509?thread_ts=1766460158.717379&cid=C083S537USC), also I'm hand assembling with a stencil and hot air reflow station so no double sided pcba fees for me)
+#### Note
+No more firmware development will be done on this repository, we don't want to take the risk of ITAR applying here.
 #### Component BOM
 |Item                              |Description               |Link                                                                                                                                                |Quantity|Unit Price|Item Subtotal     |Remarks                                                                                                                           |
 |----------------------------------|--------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|--------|----------|------------------|----------------------------------------------------------------------------------------------------------------------------------|
