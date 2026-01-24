@@ -21,6 +21,8 @@ Everything that I chose was chosen for safety or so that IRIS could actually ful
 This project was made for blueprint, an event ran by Hack Club. Hack Club is a global nonprofit that runs events like this, where teenagers learn valuable skills, like hardware design and programming. You can learn more about my project on the blueprint site, at [my project page](https://blueprint.hackclub.com/projects/486).  
 #### Note
 No more firmware development will be done on this repository, we don't want to take the risk of ITAR applying here.
+#### Issues Found
+Currently, only one issue has been found with the design: the 22uf decoupling cap for the battery has too low of a voltage rating and should instead be populated with one of the 10uf ones.
 #### Component BOM
 |Item                              |Description               |Link                                                                                                                                                |Quantity|Unit Price|Item Subtotal     |Remarks                                                                                                                           |
 |----------------------------------|--------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|--------|----------|------------------|----------------------------------------------------------------------------------------------------------------------------------|
