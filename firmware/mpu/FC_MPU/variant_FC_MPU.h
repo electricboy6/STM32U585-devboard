@@ -46,7 +46,7 @@ extern "C" {
 #define PIN_SERIAL_TX 12
 
 // hal modules
-#define HAL_SPI_MODULE_DISABLED
+//#define HAL_SPI_MODULE_DISABLED // can't disable since libs depend on it
 
 #ifdef __cplusplus
 }

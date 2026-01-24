@@ -1,4 +1,7 @@
 #include "drivers/interconnect.h"
+#include <SparkFun_MMC5983MA_Arduino_Library.h>
+#include <SparkFun_BMP581_Arduino_Library.h>
+#include <SparkFun_u-blox_GNSS_v3.h>
 
 void hexPrint(byte num);
 void hexPrintln(byte num);
