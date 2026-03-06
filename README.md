@@ -17,12 +17,18 @@ IRIS uses 2 microcontrollers, one main processor and one auxilary processor. By 
 IRIS switches both the high and low side of the pyro channels, which is entirely about safety - that way there can be a device level digital and physical arm. You can never be too safe with pyrotechnics.  
 IRIS uses a very comprehensive suite of sensors, including some quite high quality ones. This is to ensure that at least one sensor of each type is never out of range, which would lead to the position estimate being off, thus the GNC going out of control. I don't think I need to say this, but an out of control rocket is not a good thing.  
 Everything that I chose was chosen for safety or so that IRIS could actually fulfil its intended purpose.
+### Why did I make IRIS?
+I'm working on designing a rocket with some of my friends, and I needed a flight computer for it, one capable of stabilization.
+#### How to flash
+The testing firmware can be installed with platformio, board configs are in ``firmware/processor/FC_PROCESSOR``. Install those configs then flash with platformio.
 #### About  
 This project was made for blueprint, an event ran by Hack Club. Hack Club is a global nonprofit that runs events like this, where teenagers learn valuable skills, like hardware design and programming. You can learn more about my project on the blueprint site, at [my project page](https://blueprint.hackclub.com/projects/486).  
 #### Note
 No more firmware development will be done on this repository, we don't want to take the risk of ITAR applying here.
 #### Issues Found
-Currently, only one issue has been found with the design: the 22uf decoupling cap for the battery has too low of a voltage rating and should instead be populated with one of the 10uf ones.
+The 22uf decoupling cap for the battery has too low of a voltage rating and should instead be populated with one of the 10uf ones.  
+The wrong footprint was used for one of the inductors on the lr2021, it should be 0402.  
+The oscillator loading caps may need to be changed depending on what parasitic capacitance you assume, these are for roughly 4pf parasitic.
 #### Component BOM
 |Item                              |Description               |Link                                                                                                                                                |Quantity|Unit Price|Item Subtotal     |Remarks                                                                                                                           |
 |----------------------------------|--------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|--------|----------|------------------|----------------------------------------------------------------------------------------------------------------------------------|
